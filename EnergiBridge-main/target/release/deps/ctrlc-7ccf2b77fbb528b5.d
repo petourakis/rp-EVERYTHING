@@ -1,0 +1,11 @@
+C:\Users\petou\Desktop\EnergiBridge-main\EnergiBridge-main\target\release\deps\ctrlc-7ccf2b77fbb528b5.d: C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\lib.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\error.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\platform\mod.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\platform\windows\mod.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\signal.rs
+
+C:\Users\petou\Desktop\EnergiBridge-main\EnergiBridge-main\target\release\deps\libctrlc-7ccf2b77fbb528b5.rlib: C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\lib.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\error.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\platform\mod.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\platform\windows\mod.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\signal.rs
+
+C:\Users\petou\Desktop\EnergiBridge-main\EnergiBridge-main\target\release\deps\libctrlc-7ccf2b77fbb528b5.rmeta: C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\lib.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\error.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\platform\mod.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\platform\windows\mod.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\signal.rs
+
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\lib.rs:
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\error.rs:
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\platform\mod.rs:
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\platform\windows\mod.rs:
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ctrlc-3.4.2\src\signal.rs:

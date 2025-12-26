@@ -1,0 +1,11 @@
+C:\Users\petou\Desktop\EnergiBridge-main\EnergiBridge-main\target\release\deps\libc-792f3420c6978d8c.d: C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\lib.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\macros.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\fixed_width_ints.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\windows\mod.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\windows\msvc\mod.rs
+
+C:\Users\petou\Desktop\EnergiBridge-main\EnergiBridge-main\target\release\deps\liblibc-792f3420c6978d8c.rlib: C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\lib.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\macros.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\fixed_width_ints.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\windows\mod.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\windows\msvc\mod.rs
+
+C:\Users\petou\Desktop\EnergiBridge-main\EnergiBridge-main\target\release\deps\liblibc-792f3420c6978d8c.rmeta: C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\lib.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\macros.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\fixed_width_ints.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\windows\mod.rs C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\windows\msvc\mod.rs
+
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\lib.rs:
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\macros.rs:
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\fixed_width_ints.rs:
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\windows\mod.rs:
+C:\Users\petou\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.149\src\windows\msvc\mod.rs:
