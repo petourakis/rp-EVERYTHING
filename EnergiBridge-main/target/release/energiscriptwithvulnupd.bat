@@ -162,20 +162,25 @@ pushd "%BASE_DIR%"
 :: -------------------------------------------------
 if "%BUILD_TOOL%"=="maven" (
 
-    echo [MAVEN] Running: spotbugs:spotbugs %CURRENT_ARGS%
+    echo [MAVEN] Running: compile spotbugs:spotbugs %CURRENT_ARGS%
     
     "%ENERGIBRIDGE_EXE%" -i 200 -o "%CSV_OUT%" --summary "%MAVEN_CMD%" ^
-        spotbugs:spotbugs ^
+        clean compile spotbugs:spotbugs ^
         %CURRENT_ARGS%
 
     set ERR=!ERRORLEVEL!
     
-    REM Extract bug count from Maven SpotBugs XML report
+    REM Extract bug count from ALL Maven SpotBugs XML reports across all modules
     set BUG_COUNT=0
-    if exist "target\spotbugsXml.xml" (
-        REM Count BugInstance elements in the XML file
-        for /f %%A in ('powershell -Command "(Select-String -Path 'target\spotbugsXml.xml' -Pattern '<BugInstance' -AllMatches).Matches.Count"') do set BUG_COUNT=%%A
+    for /r %%F in (target\spotbugsXml.xml) do (
+        if exist "%%F" (
+            REM Count BugInstance elements in each XML file and add to total
+            for /f %%A in ('powershell -Command "(Select-String -Path '%%F' -Pattern '<BugInstance' -AllMatches).Matches.Count"') do (
+                set /A BUG_COUNT=!BUG_COUNT! + %%A
+            )
+        )
     )
+    echo [INFO] Total bugs found across all modules: !BUG_COUNT!
 
 ) else (
 
@@ -202,21 +207,17 @@ if "%BUILD_TOOL%"=="maven" (
     
     set ERR=!ERRORLEVEL!
     
-    REM Extract bug count from Gradle SpotBugs XML report
+    REM Extract bug count from ALL Gradle SpotBugs XML reports across all modules
     set BUG_COUNT=0
-    REM Gradle reports are in build/reports/spotbugs/main.xml or similar
-    if exist "build\reports\spotbugs\main.xml" (
-        for /f %%A in ('powershell -Command "(Select-String -Path 'build\reports\spotbugs\main.xml' -Pattern '<BugInstance' -AllMatches).Matches.Count"') do set BUG_COUNT=%%A
+    for /r %%F in (build\reports\spotbugs\*.xml) do (
+        if exist "%%F" (
+            REM Count BugInstance elements in each XML file and add to total
+            for /f %%A in ('powershell -Command "(Select-String -Path '%%F' -Pattern '<BugInstance' -AllMatches).Matches.Count"') do (
+                set /A BUG_COUNT=!BUG_COUNT! + %%A
+            )
+        )
     )
-    
-    REM Also check for test report
-    set TEST_BUG_COUNT=0
-    if exist "build\reports\spotbugs\test.xml" (
-        for /f %%A in ('powershell -Command "(Select-String -Path 'build\reports\spotbugs\test.xml' -Pattern '<BugInstance' -AllMatches).Matches.Count"') do set TEST_BUG_COUNT=%%A
-    )
-    
-    REM Add test bugs to total
-    set /A BUG_COUNT=!BUG_COUNT! + !TEST_BUG_COUNT!
+    echo [INFO] Total bugs found across all modules: !BUG_COUNT!
 )
 
 :: -------------------------------------------------
@@ -227,56 +228,122 @@ for /f "tokens=2 delims==" %%I in ('WMIC OS GET LocalDateTime /VALUE') do set ru
 set RUN_TIMESTAMP=%run_dt:~0,4%%run_dt:~4,2%%run_dt:~6,2%_%run_dt:~8,2%%run_dt:~10,2%%run_dt:~12,2%
 
 if "%BUILD_TOOL%"=="maven" (
-    REM Backup Maven SpotBugs XML report
-    if exist "target\spotbugsXml.xml" (
-        set "XML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml"
-        copy "target\spotbugsXml.xml" "!XML_BACKUP!" >nul 2>&1
-        if !ERRORLEVEL! EQU 0 (
-            echo [INFO] SpotBugs XML backed up: spotbugs_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml
-        )
-    )
+    REM Backup Maven SpotBugs XML reports from all modules
+    echo [INFO] Searching for SpotBugs XML reports in all modules...
     
-    REM Backup Maven SpotBugs HTML report
-    if exist "target\spotbugs.html" (
-        set "HTML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html"
-        copy "target\spotbugs.html" "!HTML_BACKUP!" >nul 2>&1
-        if !ERRORLEVEL! EQU 0 (
-            echo [INFO] SpotBugs HTML backed up: spotbugs_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html
+    REM Create temp file with list of all XML files
+    set "TEMP_XML_LIST=%TEMP%\sb_xml_%RANDOM%.txt"
+    dir /s /b "%BASE_DIR%\*spotbugsXml.xml" > "%TEMP_XML_LIST%" 2>nul
+    
+    set TOTAL_XML_SAVED=0
+    for /f "usebackq delims=" %%F in ("%TEMP_XML_LIST%") do (
+        if exist "%%F" (
+            REM Extract module name from path
+            set "MODULE_PATH=%%~dpF"
+            set "MODULE_PATH=!MODULE_PATH:%BASE_DIR%\=!"
+            set "MODULE_PATH=!MODULE_PATH:\target\=!"
+            set "MODULE_NAME=!MODULE_PATH:\=_!"
+            
+            set "XML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs_!MODULE_NAME!_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml"
+            copy "%%F" "!XML_BACKUP!" >nul 2>&1
+            if !ERRORLEVEL! EQU 0 (
+                set /A TOTAL_XML_SAVED+=1
+            )
         )
     )
+    del "%TEMP_XML_LIST%" 2>nul
+    echo [INFO] Backed up !TOTAL_XML_SAVED! SpotBugs XML reports
+    
+    REM Backup Maven SpotBugs HTML reports from all modules
+    set "TEMP_HTML_LIST=%TEMP%\sb_html_%RANDOM%.txt"
+    dir /s /b "%BASE_DIR%\*spotbugs.html" > "%TEMP_HTML_LIST%" 2>nul
+    
+    set TOTAL_HTML_SAVED=0
+    for /f "usebackq delims=" %%F in ("%TEMP_HTML_LIST%") do (
+        if exist "%%F" (
+            REM Extract module name from path
+            set "MODULE_PATH=%%~dpF"
+            set "MODULE_PATH=!MODULE_PATH:%BASE_DIR%\=!"
+            set "MODULE_PATH=!MODULE_PATH:\target\=!"
+            set "MODULE_NAME=!MODULE_PATH:\=_!"
+            
+            set "HTML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs_!MODULE_NAME!_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html"
+            copy "%%F" "!HTML_BACKUP!" >nul 2>&1
+            if !ERRORLEVEL! EQU 0 (
+                set /A TOTAL_HTML_SAVED+=1
+            )
+        )
+    )
+    del "%TEMP_HTML_LIST%" 2>nul
+    echo [INFO] Backed up !TOTAL_HTML_SAVED! SpotBugs HTML reports
 ) else (
-    REM Backup Gradle SpotBugs XML reports (main and test)
-    if exist "build\reports\spotbugs\main.xml" (
-        set "XML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs-main_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml"
-        copy "build\reports\spotbugs\main.xml" "!XML_BACKUP!" >nul 2>&1
-        if !ERRORLEVEL! EQU 0 (
-            echo [INFO] SpotBugs main XML backed up: spotbugs-main_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml
-        )
-    )
+    REM Backup Gradle SpotBugs XML reports from all modules (multi-module support)
+    echo [INFO] Searching for SpotBugs XML reports in all Gradle modules...
     
-    if exist "build\reports\spotbugs\test.xml" (
-        set "TEST_XML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs-test_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml"
-        copy "build\reports\spotbugs\test.xml" "!TEST_XML_BACKUP!" >nul 2>&1
-        if !ERRORLEVEL! EQU 0 (
-            echo [INFO] SpotBugs test XML backed up: spotbugs-test_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml
-        )
-    )
+    REM Create temp file with list of all XML files
+    set "TEMP_GRADLE_XML=%TEMP%\gradle_xml_%RANDOM%.txt"
+    dir /s /b "%BASE_DIR%\build\reports\spotbugs\*.xml" > "%TEMP_GRADLE_XML%" 2>nul
     
-    REM Backup Gradle SpotBugs HTML report
-    if exist "build\reports\spotbugs\main.html" (
-        set "HTML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs-main_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html"
-        copy "build\reports\spotbugs\main.html" "!HTML_BACKUP!" >nul 2>&1
-        if !ERRORLEVEL! EQU 0 (
-            echo [INFO] SpotBugs main HTML backed up: spotbugs-main_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html
+    set TOTAL_XML_SAVED=0
+    for /f "usebackq delims=" %%F in ("%TEMP_GRADLE_XML%") do (
+        if exist "%%F" (
+            REM Extract module name and report type from path
+            set "FILE_PATH=%%~dpF"
+            set "FILE_NAME=%%~nF"
+            set "MODULE_PATH=!FILE_PATH:%BASE_DIR%\=!"
+            set "MODULE_PATH=!MODULE_PATH:\build\reports\spotbugs\=!"
+            set "MODULE_NAME=!MODULE_PATH:\=_!"
+            
+            REM If root module, use project name
+            if "!MODULE_NAME!"=="" (
+                set "MODULE_NAME=%PROJECT%"
+            )
+            
+            set "XML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs-!MODULE_NAME!-!FILE_NAME!_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml"
+            copy "%%F" "!XML_BACKUP!" >nul 2>&1
+            if !ERRORLEVEL! EQU 0 (
+                set /A TOTAL_XML_SAVED+=1
+            )
         )
     )
+    del "%TEMP_GRADLE_XML%" 2>nul
+    echo [INFO] Backed up !TOTAL_XML_SAVED! SpotBugs XML reports
+    
+    REM Backup Gradle SpotBugs HTML reports from all modules
+    set "TEMP_GRADLE_HTML=%TEMP%\gradle_html_%RANDOM%.txt"
+    dir /s /b "%BASE_DIR%\build\reports\spotbugs\*.html" > "%TEMP_GRADLE_HTML%" 2>nul
+    
+    set TOTAL_HTML_SAVED=0
+    for /f "usebackq delims=" %%F in ("%TEMP_GRADLE_HTML%") do (
+        if exist "%%F" (
+            REM Extract module name and report type from path
+            set "FILE_PATH=%%~dpF"
+            set "FILE_NAME=%%~nF"
+            set "MODULE_PATH=!FILE_PATH:%BASE_DIR%\=!"
+            set "MODULE_PATH=!MODULE_PATH:\build\reports\spotbugs\=!"
+            set "MODULE_NAME=!MODULE_PATH:\=_!"
+            
+            REM If root module, use project name
+            if "!MODULE_NAME!"=="" (
+                set "MODULE_NAME=%PROJECT%"
+            )
+            
+            set "HTML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs-!MODULE_NAME!-!FILE_NAME!_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html"
+            copy "%%F" "!HTML_BACKUP!" >nul 2>&1
+            if !ERRORLEVEL! EQU 0 (
+                set /A TOTAL_HTML_SAVED+=1
+            )
+        )
+    )
+    del "%TEMP_GRADLE_HTML%" 2>nul
+    echo [INFO] Backed up !TOTAL_HTML_SAVED! SpotBugs HTML reports
     
     REM Backup Gradle problems-report.html (if exists)
     if exist "build\reports\problems\problems-report.html" (
         set "PROBLEMS_HTML_BACKUP=%PROBLEMS_BACKUP_DIR%\problems-report_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html"
         copy "build\reports\problems\problems-report.html" "!PROBLEMS_HTML_BACKUP!" >nul 2>&1
         if !ERRORLEVEL! EQU 0 (
-            echo [INFO] Problems report HTML backed up: problems-report_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html
+            echo [INFO] Problems report HTML backed up
         )
     )
 )
