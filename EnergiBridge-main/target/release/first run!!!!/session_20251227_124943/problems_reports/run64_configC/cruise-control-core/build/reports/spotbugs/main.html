@@ -1,0 +1,680 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>SpotBugs Report</title>
+      <style type="text/css">
+		.tablerow0 {
+			background: #EEEEEE;
+		}
+
+		.tablerow1 {
+			background: white;
+		}
+
+		.detailrow0 {
+			background: #EEEEEE;
+		}
+
+		.detailrow1 {
+			background: white;
+		}
+
+		.tableheader {
+			background: #b9b9fe;
+			font-size: larger;
+		}
+
+		.tablerow0:hover, .tablerow1:hover {
+			background: #aaffaa;
+		}
+
+		.priority-1 {
+				color: red;
+				font-weight: bold;
+		}
+		.priority-2 {
+				color: orange;
+				font-weight: bold;
+		}
+		.priority-3 {
+				color: green;
+				font-weight: bold;
+		}
+		.priority-4 {
+				color: blue;
+				font-weight: bold;
+		}
+		</style>
+      <script type="text/javascript">
+			function toggleRow(elid) {
+				if (document.getElementById) {
+					element = document.getElementById(elid);
+					if (element) {
+						if (element.style.display == 'none') {
+							element.style.display = 'block';
+							//window.status = 'Toggle on!';
+						} else {
+							element.style.display = 'none';
+							//window.status = 'Toggle off!';
+						}
+					}
+				}
+			}
+		</script>
+   </head>
+   <body>
+      <h1>
+         <a href="https://spotbugs.github.io/">SpotBugs</a> Report</h1>
+      <h2>Project Information</h2>
+      <p>Project: 
+		cruise-control-core (spotbugsMain)</p>
+      <p>SpotBugs version: 4.9.0</p>
+      <p>Code analyzed:</p>
+      <ul>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\AbstractConfig$RecordingMap.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\AbstractConfig.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\Config.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$1.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$2.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$3.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$4.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$ConfigKey.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Importance.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$NonEmptyString.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Range.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Recommender.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Type.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Validator.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$ValidList.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$ValidString.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Width.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigException.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigValue.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\types\Password.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\CruiseControlConfigurable.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\Generationed.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\LongGenerationed.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\utils\Utils.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\WindowIndexedArrays.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\config\CruiseControlConfig.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\CruiseControlUtils.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\Anomaly.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\AnomalyType.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\MetricAnomaly.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\MetricAnomalyFinder.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\MetricAnomalyType.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinder.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinderConfig.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinderUtils.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\exception\CruiseControlException.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\exception\NotEnoughValidWindowsException.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\http\CruiseControlHttpSession.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\http\CruiseControlRequestContext.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\metricdef\AggregationFunction.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\metricdef\MetricDef.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\metricdef\MetricInfo.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\metricdef\ValueComputingStrategy.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\model\Entity.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregationOptions$Granularity.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregationOptions.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\Extrapolation.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregationResult.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregator$SampleType.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregator.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorState$1.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorState$MyAtomicLong.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorState.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricValues.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValues$1.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValues.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\WindowState.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\MetricSample.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\EndPoint.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\EndpointType.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\handler\Request.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\parameters\CruiseControlParameters.class</li>
+         <li>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\response\CruiseControlResponse.class</li>
+      </ul>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Metrics</h2>
+      <p>2591 lines of code analyzed,
+	in 67 classes, 
+	in 18 packages.</p>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Metric</th>
+            <th align="right">Total</th>
+            <th align="right">Density*</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>High Priority Warnings</td>
+            <td align="right"/>
+            <td align="right">0.00</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>Medium Priority Warnings</td>
+            <td align="right">24</td>
+            <td align="right">9.26</td>
+         </tr>
+         <tr class="$totalClass">
+            <td>
+               <b>Total Warnings</b>
+            </td>
+            <td align="right">
+               <b>24</b>
+            </td>
+            <td align="right">
+               <b>9.26</b>
+            </td>
+         </tr>
+      </table>
+      <p>
+         <i>(* Defects per Thousand lines of non-commenting source statements)</i>
+      </p>
+      <p>
+         <br/>
+         <br/>
+      </p>
+      <h2>Contents</h2>
+      <ul>
+         <li>
+            <a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+         </li>
+         <li>
+            <a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+         </li>
+         <li>
+            <a href="#Warnings_SECURITY">Security Warnings</a>
+         </li>
+         <li>
+            <a href="#Details">Details</a>
+         </li>
+      </ul>
+      <h1>Summary</h1>
+      <table width="500" cellpadding="5" cellspacing="2">
+         <tr class="tableheader">
+            <th align="left">Warning Type</th>
+            <th align="right">Number</th>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+            </td>
+            <td align="right">6</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <a href="#Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+            </td>
+            <td align="right">17</td>
+         </tr>
+         <tr class="tablerow0">
+            <td>
+               <a href="#Warnings_SECURITY">Security Warnings</a>
+            </td>
+            <td align="right">1</td>
+         </tr>
+         <tr class="tablerow1">
+            <td>
+               <b>Total</b>
+            </td>
+            <td align="right">
+               <b>24</b>
+            </td>
+         </tr>
+      </table>
+      <h1>Warnings</h1>
+      <p>Click on a warning row to see full context information.</p>
+      <h2>
+         <a name="Warnings_BAD_PRACTICE">Bad practice Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e113');">
+            <td>
+               <span class="priority-2">CT</span>
+            </td>
+            <td>Exception thrown in class com.linkedin.cruisecontrol.common.config.AbstractConfig at new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e113" style="display: none;">
+                  <a href="#CT_CONSTRUCTOR_THROW">Bug type CT_CONSTRUCTOR_THROW (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.common.config.AbstractConfig<br/>In method new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map)<br/>At AbstractConfig.java:[line 67]<br/>At AbstractConfig.java:[line 67]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e127');">
+            <td>
+               <span class="priority-2">CT</span>
+            </td>
+            <td>Exception thrown in class com.linkedin.cruisecontrol.common.config.AbstractConfig at new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map, boolean) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e127" style="display: none;">
+                  <a href="#CT_CONSTRUCTOR_THROW">Bug type CT_CONSTRUCTOR_THROW (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.common.config.AbstractConfig<br/>In method new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map, boolean)<br/>At AbstractConfig.java:[line 49]<br/>At AbstractConfig.java:[line 49]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e330');">
+            <td>
+               <span class="priority-2">CT</span>
+            </td>
+            <td>Exception thrown in class com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig at new com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig(Map) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e330" style="display: none;">
+                  <a href="#CT_CONSTRUCTOR_THROW">Bug type CT_CONSTRUCTOR_THROW (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig<br/>In method new com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig(Map)<br/>At PercentileMetricAnomalyFinderConfig.java:[line 89]<br/>At PercentileMetricAnomalyFinderConfig.java:[line 89]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e345');">
+            <td>
+               <span class="priority-2">CT</span>
+            </td>
+            <td>Exception thrown in class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues at new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues(Map) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e345" style="display: none;">
+                  <a href="#CT_CONSTRUCTOR_THROW">Bug type CT_CONSTRUCTOR_THROW (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues<br/>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues(Map)<br/>At AggregatedMetricValues.java:[line 47]<br/>At AggregatedMetricValues.java:[line 47]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e377');">
+            <td>
+               <span class="priority-2">CT</span>
+            </td>
+            <td>Exception thrown in class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions at new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions(double, double, int, int, Set, AggregationOptions$Granularity, boolean) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e377" style="display: none;">
+                  <a href="#CT_CONSTRUCTOR_THROW">Bug type CT_CONSTRUCTOR_THROW (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions<br/>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions(double, double, int, int, Set, AggregationOptions$Granularity, boolean)<br/>At AggregationOptions.java:[line 57]<br/>At AggregationOptions.java:[line 57]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e489');">
+            <td>
+               <span class="priority-2">CT</span>
+            </td>
+            <td>Exception thrown in class com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues at new com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues(int, byte, int) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e489" style="display: none;">
+                  <a href="#CT_CONSTRUCTOR_THROW">Bug type CT_CONSTRUCTOR_THROW (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues<br/>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues(int, byte, int)<br/>At RawMetricValues.java:[line 52]<br/>At RawMetricValues.java:[line 52]</p>
+            </td>
+         </tr>
+      </table>
+      <h2>
+         <a name="Warnings_MALICIOUS_CODE">Malicious code vulnerability Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e409');">
+            <td>
+               <span class="priority-2">EI</span>
+            </td>
+            <td>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.extrapolatedEntitiesByWindowIndex() may expose internal representation by returning MetricSampleCompleteness._extrapolatedEntitiesByWindowIndex</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e409" style="display: none;">
+                  <a href="#EI_EXPOSE_REP">Bug type EI_EXPOSE_REP (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness<br/>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.extrapolatedEntitiesByWindowIndex()<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._extrapolatedEntitiesByWindowIndex<br/>At MetricSampleCompleteness.java:[line 138]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e425');">
+            <td>
+               <span class="priority-2">EI</span>
+            </td>
+            <td>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityGroupRatioByWindowIndex() may expose internal representation by returning MetricSampleCompleteness._validEntityGroupRatioByWindowIndex</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e425" style="display: none;">
+                  <a href="#EI_EXPOSE_REP">Bug type EI_EXPOSE_REP (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness<br/>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityGroupRatioByWindowIndex()<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._validEntityGroupRatioByWindowIndex<br/>At MetricSampleCompleteness.java:[line 130]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e441');">
+            <td>
+               <span class="priority-2">EI</span>
+            </td>
+            <td>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityRatioByWindowIndex() may expose internal representation by returning MetricSampleCompleteness._validEntityRatioByWindowIndex</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e441" style="display: none;">
+                  <a href="#EI_EXPOSE_REP">Bug type EI_EXPOSE_REP (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness<br/>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityRatioByWindowIndex()<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._validEntityRatioByWindowIndex<br/>At MetricSampleCompleteness.java:[line 108]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e457');">
+            <td>
+               <span class="priority-2">EI</span>
+            </td>
+            <td>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityRatioWithGroupGranularityByWindowIndex() may expose internal representation by returning MetricSampleCompleteness._validEntityRatioWithGroupGranularityByWindowIndex</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e457" style="display: none;">
+                  <a href="#EI_EXPOSE_REP">Bug type EI_EXPOSE_REP (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness<br/>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityRatioWithGroupGranularityByWindowIndex()<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._validEntityRatioWithGroupGranularityByWindowIndex<br/>At MetricSampleCompleteness.java:[line 119]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e473');">
+            <td>
+               <span class="priority-2">EI</span>
+            </td>
+            <td>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validWindowIndices() may expose internal representation by returning MetricSampleCompleteness._validWindowIndices</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e473" style="display: none;">
+                  <a href="#EI_EXPOSE_REP">Bug type EI_EXPOSE_REP (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness<br/>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validWindowIndices()<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._validWindowIndices<br/>At MetricSampleCompleteness.java:[line 150]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e503');">
+            <td>
+               <span class="priority-2">EI</span>
+            </td>
+            <td>com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations.metricValues() may expose internal representation by returning ValuesAndExtrapolations._metricValues</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e503" style="display: none;">
+                  <a href="#EI_EXPOSE_REP">Bug type EI_EXPOSE_REP (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations<br/>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations.metricValues()<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations._metricValues<br/>At ValuesAndExtrapolations.java:[line 42]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e141');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map, boolean) may expose internal representation by storing an externally mutable object into AbstractConfig._originals</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e141" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.common.config.AbstractConfig<br/>In method new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map, boolean)<br/>Field com.linkedin.cruisecontrol.common.config.AbstractConfig._originals<br/>Local variable named originals<br/>At AbstractConfig.java:[line 52]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e159');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>new com.linkedin.cruisecontrol.common.config.Config(List) may expose internal representation by storing an externally mutable object into Config._configValues</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e159" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.common.config.Config<br/>In method new com.linkedin.cruisecontrol.common.config.Config(List)<br/>Field com.linkedin.cruisecontrol.common.config.Config._configValues<br/>Local variable named configValues<br/>At Config.java:[line 14]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e258');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>new com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey(String, ConfigDef$Type, Object, ConfigDef$Validator, ConfigDef$Importance, String, String, int, ConfigDef$Width, String, List, ConfigDef$Recommender, boolean) may expose internal representation by storing an externally mutable object into ConfigDef$ConfigKey._dependents</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e258" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey<br/>In method new com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey(String, ConfigDef$Type, Object, ConfigDef$Validator, ConfigDef$Importance, String, String, int, ConfigDef$Width, String, List, ConfigDef$Recommender, boolean)<br/>Field com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey._dependents<br/>Local variable named dependents<br/>At ConfigDef.java:[line 977]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e276');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>new com.linkedin.cruisecontrol.common.config.ConfigValue(String, Object, List, List) may expose internal representation by storing an externally mutable object into ConfigValue._errorMessages</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e276" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.common.config.ConfigValue<br/>In method new com.linkedin.cruisecontrol.common.config.ConfigValue(String, Object, List, List)<br/>Field com.linkedin.cruisecontrol.common.config.ConfigValue._errorMessages<br/>Local variable named errorMessages<br/>At ConfigValue.java:[line 28]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e294');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>new com.linkedin.cruisecontrol.common.config.ConfigValue(String, Object, List, List) may expose internal representation by storing an externally mutable object into ConfigValue._recommendedValues</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e294" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.common.config.ConfigValue<br/>In method new com.linkedin.cruisecontrol.common.config.ConfigValue(String, Object, List, List)<br/>Field com.linkedin.cruisecontrol.common.config.ConfigValue._recommendedValues<br/>Local variable named recommendedValues<br/>At ConfigValue.java:[line 27]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e312');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>com.linkedin.cruisecontrol.common.config.ConfigValue.recommendedValues(List) may expose internal representation by storing an externally mutable object into ConfigValue._recommendedValues</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e312" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.common.config.ConfigValue<br/>In method com.linkedin.cruisecontrol.common.config.ConfigValue.recommendedValues(List)<br/>Field com.linkedin.cruisecontrol.common.config.ConfigValue._recommendedValues<br/>Local variable named recommendedValues<br/>At ConfigValue.java:[line 49]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e359');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues(Map) may expose internal representation by storing an externally mutable object into AggregatedMetricValues._metricValues</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e359" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues<br/>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues(Map)<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues._metricValues<br/>Local variable named valuesByMetricId<br/>At AggregatedMetricValues.java:[line 50]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e391');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>new com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult(long, MetricSampleCompleteness) may expose internal representation by storing an externally mutable object into MetricSampleAggregationResult._completeness</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e391" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult<br/>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult(long, MetricSampleCompleteness)<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult._completeness<br/>Local variable named completeness<br/>At MetricSampleAggregationResult.java:[line 41]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e520');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>new com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations(AggregatedMetricValues, Map) may expose internal representation by storing an externally mutable object into ValuesAndExtrapolations._extrapolations</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e520" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations<br/>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations(AggregatedMetricValues, Map)<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations._extrapolations<br/>Local variable named extrapolations<br/>At ValuesAndExtrapolations.java:[line 29]</p>
+            </td>
+         </tr>
+         <tr class="tablerow0" onclick="toggleRow('d1e538');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>new com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations(AggregatedMetricValues, Map) may expose internal representation by storing an externally mutable object into ValuesAndExtrapolations._metricValues</td>
+         </tr>
+         <tr class="detailrow0">
+            <td/>
+            <td>
+               <p id="d1e538" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations<br/>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations(AggregatedMetricValues, Map)<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations._metricValues<br/>Local variable named metricValues<br/>At ValuesAndExtrapolations.java:[line 28]</p>
+            </td>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e556');">
+            <td>
+               <span class="priority-2">EI2</span>
+            </td>
+            <td>com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations.setWindows(List) may expose internal representation by storing an externally mutable object into ValuesAndExtrapolations._windows</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e556" style="display: none;">
+                  <a href="#EI_EXPOSE_REP2">Bug type EI_EXPOSE_REP2 (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations<br/>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations.setWindows(List)<br/>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations._windows<br/>Local variable named windows<br/>At ValuesAndExtrapolations.java:[line 81]</p>
+            </td>
+         </tr>
+      </table>
+      <h2>
+         <a name="Warnings_SECURITY">Security Warnings</a>
+      </h2>
+      <table class="warningtable" width="100%" cellspacing="0">
+         <tr class="tableheader">
+            <th align="left">Code</th>
+            <th align="left">Warning</th>
+         </tr>
+         <tr class="tablerow1" onclick="toggleRow('d1e177');">
+            <td>
+               <span class="priority-2">SECXML</span>
+            </td>
+            <td>java/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder; is potentially injected into an XML string in method com.linkedin.cruisecontrol.common.config.ConfigDef.toHtmlTable().</td>
+         </tr>
+         <tr class="detailrow1">
+            <td/>
+            <td>
+               <p id="d1e177" style="display: none;">
+                  <a href="#POTENTIAL_XML_INJECTION">Bug type POTENTIAL_XML_INJECTION (click for details)</a>
+                  <br/>In class com.linkedin.cruisecontrol.common.config.ConfigDef<br/>In method com.linkedin.cruisecontrol.common.config.ConfigDef.toHtmlTable()<br/>At ConfigDef.java:[line 1101]<br/>Sink method java/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;<br/>Sink parameter 0<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._documentation<br/>Unknown source java/lang/Object.toString()Ljava/lang/String;<br/>Unknown source com/linkedin/cruisecontrol/common/utils/Utils.join(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._validator<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$Importance.toString()Ljava/lang/String;<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef.convertToString(Ljava/lang/Object;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Type;)Ljava/lang/String; parameter 1<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$Type.toString()Ljava/lang/String;<br/>Unknown source com/linkedin/cruisecontrol/common/utils/Utils.join(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String; parameter 0<br/>Unknown source com/linkedin/cruisecontrol/common/utils/Utils.join(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String; parameter 1<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef.getConfigValue(Lcom/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey;Ljava/lang/String;)Ljava/lang/String;<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._type<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef.convertToString(Ljava/lang/Object;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Type;)Ljava/lang/String;<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._defaultValue<br/>Unknown source java/util/Iterator.next()Ljava/lang/Object;<br/>Unknown source java/util/Collection.iterator()Ljava/util/Iterator;<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._importance<br/>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._name<br/>At ConfigDef.java:[line 738]<br/>At ConfigDef.java:[line 749]<br/>At ConfigDef.java:[line 752]<br/>At ConfigDef.java:[line 1050]<br/>At ConfigDef.java:[line 1052]<br/>At ConfigDef.java:[line 1054]<br/>At ConfigDef.java:[line 1060]<br/>At ConfigDef.java:[line 1070]<br/>At ConfigDef.java:[line 1072]<br/>At ConfigDef.java:[line 1101]<br/>At Utils.java:[line 79]<br/>At Utils.java:[line 81]<br/>At Utils.java:[line 83]<br/>At Utils.java:[line 86]</p>
+            </td>
+         </tr>
+      </table>
+      <h1>
+         <a name="Details">Details</a>
+      </h1>
+      <h2>
+         <a name="CT_CONSTRUCTOR_THROW">CT_CONSTRUCTOR_THROW: Be wary of letting constructors throw exceptions.</a>
+      </h2>
+      
+            <p>Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks</p>
+
+            <p>A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared as final, or by a clever use of a private constructor.</p>
+
+            <p>See <a href="https://wiki.sei.cmu.edu/confluence/display/java/OBJ11-J.+Be+wary+of+letting+constructors+throw+exceptions"><code>SEI CERT Rule OBJ-11</code></a>
+            for more information.
+            </p>
+            
+    <h2>
+         <a name="EI_EXPOSE_REP">EI_EXPOSE_REP: May expose internal representation by returning reference to mutable object</a>
+      </h2>
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    <h2>
+         <a name="EI_EXPOSE_REP2">EI_EXPOSE_REP2: May expose internal representation by incorporating reference to mutable object</a>
+      </h2>
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    <h2>
+         <a name="POTENTIAL_XML_INJECTION">POTENTIAL_XML_INJECTION: An unsafe string is potentially injected into an XML string</a>
+      </h2>
+        
+<p>
+Unsafe strings (e.g. from a user input) may contain XML tags. If such a string is inserted into an XML document then it
+may change its structure to a valid but semanticallly different document. To prevent this unsafe strings must b
+sanitized first.
+</p>
+
+<p>
+<b>Example:</b><br/>
+
+An XML document may look like this:<br/>
+
+<pre>
+&langle;product&rangle;
+    &langle;name&rangle;Cell Phone&langle;/name&rangle;
+    &langle;price&rangle;800&langle;/price&rangle;
+    &langle;amount&rangle;1&langle;/amount&rangle;
+&langle;/product&rangle;
+</pre>
+<br/>
+
+An attacker may put the following string to the field "amount":<br/>
+
+<pre>
+1&langle;/amount&rangle;&langle;price&rangle;1&langle;/price&rangle;&langle;amount&rangle;1
+</pre>
+<br/>
+
+If the XML parser works in a way that the second price overwrites the first one then the attacker may buy the cell
+phone for 1 singe dollar.
+</p>
+
+<p>References</b><br>
+<a href="https://wiki.sei.cmu.edu/confluence/display/java/IDS16-J.+Prevent+XML+Injection">IDS16-J. Prevent XML Injection</a><br/>
+</p>
+        
+        </body>
+</html>

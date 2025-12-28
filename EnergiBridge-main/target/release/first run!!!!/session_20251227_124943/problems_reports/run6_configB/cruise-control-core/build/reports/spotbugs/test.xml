@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.9.0" sequence="0" timestamp="1766836265866" analysisTimestamp="1766836265866" release="">
+  <Project projectName="cruise-control-core (spotbugsTest)">
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\test\com\linkedin\cruisecontrol\CruiseControlUnitTestUtils.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\test\com\linkedin\cruisecontrol\CruiseControlUtilsTest.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\test\com\linkedin\cruisecontrol\IntegerEntity.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\test\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValuesTest.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\test\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorTest$1.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\test\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorTest.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\test\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValuesTest$1.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\test\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValuesTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\resources\main</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-servlet\9.4.56.v20240826\c8645a939af24f227e4123b89af14264176f7c60\jetty-servlet-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-web\4.5.8\aecad6ecce14ac7066df0080adcd0a518b7527a0\vertx-web-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-web-common\4.5.8\6a4b2908bc53cb51ecaa22a97d2cfbd31558f11e\vertx-web-common-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-auth-common\4.5.8\c57ffefc157427fda7e67b88c16585b7464c8012\vertx-auth-common-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-bridge-common\4.5.8\40a1dbf37745fe436975a674104b786980e04215\vertx-bridge-common-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-core\4.5.8\d5d0f77e80454a6bab722bb996a7abd805226636\vertx-core-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j-impl\2.17.2\183f7c95fc981f3e97d008b363341343508848e\log4j-slf4j-impl-2.17.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.36\6c62681a2f655b49963a5983b8b0950a6120ae14\slf4j-api-1.7.36.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-math3\3.6.1\e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf\commons-math3-3.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\junit\junit\4.13.2\8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12\junit-4.13.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-security\9.4.56.v20240826\b22ab0397e893d9c092ade34a8e826ef576b285c\jetty-security-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-util-ajax\9.4.56.v20240826\2f2695de1ae62d84ca8336c7e6ddedc80aa2e521\jetty-util-ajax-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler-proxy\4.1.110.Final\b7fb401dd47c79e6b99f2319ac3b561c50c31c30\netty-handler-proxy-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http2\4.1.110.Final\e0849843eb5b1c036b12551baca98a9f7ff847a0\netty-codec-http2-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http\4.1.110.Final\9d05cd927209ea25bbf342962c00b8e5a828c2a4\netty-codec-http-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver-dns\4.1.110.Final\3e687cdc4ecdbbad07508a11b715bdf95fa20939\netty-resolver-dns-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.110.Final\168db749c22652ee7fed1ebf7ec46ce856d75e51\netty-handler-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.110.Final\a7096e7c0a25a983647909d7513f5d4943d589c0\netty-transport-native-unix-common-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-socks\4.1.110.Final\4d54c8d5b95b14756043efb59b8c3e62ec67aa43\netty-codec-socks-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-dns\4.1.110.Final\381c5bf8b7570c163fa7893a26d02b7ac36ff6eb\netty-codec-dns-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.110.Final\f1fa43b03e93ab88e805b6a4e3e83780c80b47d2\netty-codec-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.110.Final\b91f04c39ac14d6a29d07184ef305953ee6e0348\netty-transport-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.110.Final\3d918a9ee057d995c362902b54634fc307132aac\netty-buffer-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.110.Final\66c15921104cda0159b34e316541bc765dfaf3c0\netty-resolver-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.110.Final\ec361e7e025c029be50c55c8480080cabcbc01e7\netty-common-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.16.1\9456bb3cdd0f79f91a5f730a1b1bb041a380c91f\jackson-core-2.16.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.17.2\f42d6afa111b4dec5d2aea0fe2197240749a4ea6\log4j-api-2.17.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.hamcrest\hamcrest-core\1.3\42a25dc3219429f0e5d060061f71acb49bf010a0\hamcrest-core-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-server\9.4.56.v20240826\65ce500f7cad946ce0e172c6ce90319caa29e787\jetty-server-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-http\9.4.56.v20240826\e522a857d234e5ade679abfae807bcf4ecdd6f2e\jetty-http-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-io\9.4.56.v20240826\533e7cbc5efc1d58d14cefb68904cd3af47fc316\jetty-io-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-util\9.4.56.v20240826\696cf9f9160e3a0ff208db614af118915cbdcf2d\jetty-util-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\javax.servlet\javax.servlet-api\3.1.0\3cd63d075497751784b2fa84be59432f4905bf7c\javax.servlet-api-3.1.0.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\src\test\resources</SrcDir>
+    <SrcDir>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\src\test\java</SrcDir>
+    <Plugin id="com.h3xstream.findsecbugs" enabled="true"/>
+  </Project>
+  <BugInstance type="PREDICTABLE_RANDOM" priority="2" rank="12" abbrev="SECPR" category="SECURITY" instanceHash="93f588f8a874c4fb537e1aff754128fe" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="330">
+    <ShortMessage>Predictable pseudorandom number generator</ShortMessage>
+    <LongMessage>This random generator (java.util.Random) is predictable</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregatorTest" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregatorTest" start="36" end="485" sourcefile="MetricSampleAggregatorTest.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleAggregatorTest.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorTest.java">
+        <Message>At MetricSampleAggregatorTest.java:[lines 36-485]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregatorTest</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregatorTest" name="testConcurrency" signature="()V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregatorTest" start="369" end="422" startBytecode="0" endBytecode="862" sourcefile="MetricSampleAggregatorTest.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleAggregatorTest.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorTest.java"/>
+      <Message>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregatorTest.testConcurrency()</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregatorTest" primary="true" start="381" end="381" startBytecode="40" endBytecode="40" sourcefile="MetricSampleAggregatorTest.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleAggregatorTest.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorTest.java">
+      <Message>At MetricSampleAggregatorTest.java:[line 381]</Message>
+    </SourceLine>
+    <String value="java.util.Random">
+      <Message>Value java.util.Random</Message>
+    </String>
+  </BugInstance>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugPattern type="PREDICTABLE_RANDOM" abbrev="SECPR" category="SECURITY" cweid="330">
+    <ShortDescription>Predictable pseudorandom number generator</ShortDescription>
+    <Details><![CDATA[
+            
+<p>The use of a predictable random value can lead to vulnerabilities when used in certain security critical contexts. For example, when the value is used as:</p>
+<ul>
+<li>a CSRF token: a predictable token can lead to a CSRF attack as an attacker will know the value of the token</li>
+<li>a password reset token (sent by email): a predictable password token can lead to an account takeover, since an attacker will guess the URL of the "change password" form</li>
+<li>any other secret value</li>
+</ul>
+<p>
+A quick fix could be to replace the use of <code>java.util.Random</code> with something stronger, such as <code>java.security.SecureRandom</code>.
+</p>
+<p>
+<b>Vulnerable Code:</b><br/>
+<pre>String generateSecretToken() {
+    Random r = new Random();
+    return Long.toHexString(r.nextLong());
+}</pre>
+</p>
+<p>
+<b>Solution:</b>
+<pre>import org.apache.commons.codec.binary.Hex;
+
+String generateSecretToken() {
+    SecureRandom secRandom = new SecureRandom();
+
+    byte[] result = new byte[32];
+    secRandom.nextBytes(result);
+    return Hex.encodeHexString(result);
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="https://jazzy.id.au/2010/09/20/cracking_random_number_generators_part_1.html">Cracking Random Number Generators - Part 1 (https://jazzy.id.au)</a><br/>
+<a href="https://www.securecoding.cert.org/confluence/display/java/MSC02-J.+Generate+strong+random+numbers">CERT: MSC02-J. Generate strong random numbers</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/330.html">CWE-330: Use of Insufficiently Random Values</a><br/>
+<a href="https://blog.h3xstream.com/2014/12/predicting-struts-csrf-token-cve-2014.html">Predicting Struts CSRF Token (Example of real-life vulnerability and exploitation)</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="SECPR">
+    <Description>Predictable Pseudo Random Generator</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="2">
+    <MissingClass>accept</MissingClass>
+    <MissingClass>makeConcatWithConstants</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sat, 27 Dec 2025 12:51:05 +0100" total_classes="0" referenced_classes="0" total_bugs="1" total_size="0" num_packages="1" java_version="17.0.12" vm_version="17.0.12+8-LTS-286" cpu_seconds="46.59" clock_seconds="14.86" peak_mbytes="258.90" alloc_mbytes="4004.00" gc_seconds="0.07" priority_2="1">
+    <FileStats path="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleAggregatorTest.java" bugCount="1" size="0" bugHash="59052e24626a8747ca383d8f5ea7e227"/>
+    <FindBugsProfile></FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

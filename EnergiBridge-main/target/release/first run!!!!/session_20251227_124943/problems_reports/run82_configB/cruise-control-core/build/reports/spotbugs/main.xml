@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.9.0" sequence="0" timestamp="1766836235823" analysisTimestamp="1766836235823" release="">
+  <Project projectName="cruise-control-core (spotbugsMain)">
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\AbstractConfig$RecordingMap.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\AbstractConfig.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\Config.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$1.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$2.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$3.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$4.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$ConfigKey.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Importance.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$NonEmptyString.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Range.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Recommender.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Type.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Validator.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$ValidList.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$ValidString.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef$Width.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigDef.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigException.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\ConfigValue.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\config\types\Password.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\CruiseControlConfigurable.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\Generationed.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\LongGenerationed.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\utils\Utils.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\common\WindowIndexedArrays.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\config\CruiseControlConfig.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\CruiseControlUtils.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\Anomaly.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\AnomalyType.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\MetricAnomaly.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\MetricAnomalyFinder.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\MetricAnomalyType.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinder.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinderConfig.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinderUtils.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\exception\CruiseControlException.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\exception\NotEnoughValidWindowsException.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\http\CruiseControlHttpSession.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\http\CruiseControlRequestContext.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\metricdef\AggregationFunction.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\metricdef\MetricDef.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\metricdef\MetricInfo.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\metricdef\ValueComputingStrategy.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\model\Entity.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregationOptions$Granularity.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregationOptions.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\Extrapolation.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregationResult.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregator$SampleType.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregator.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorState$1.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorState$MyAtomicLong.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregatorState.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricValues.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValues$1.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValues.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\aggregator\WindowState.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\monitor\sampling\MetricSample.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\EndPoint.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\EndpointType.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\handler\Request.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\parameters\CruiseControlParameters.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\build\classes\java\main\com\linkedin\cruisecontrol\servlet\response\CruiseControlResponse.class</Jar>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-servlet\9.4.56.v20240826\c8645a939af24f227e4123b89af14264176f7c60\jetty-servlet-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-web\4.5.8\aecad6ecce14ac7066df0080adcd0a518b7527a0\vertx-web-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-web-common\4.5.8\6a4b2908bc53cb51ecaa22a97d2cfbd31558f11e\vertx-web-common-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-auth-common\4.5.8\c57ffefc157427fda7e67b88c16585b7464c8012\vertx-auth-common-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-bridge-common\4.5.8\40a1dbf37745fe436975a674104b786980e04215\vertx-bridge-common-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-core\4.5.8\d5d0f77e80454a6bab722bb996a7abd805226636\vertx-core-4.5.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j-impl\2.17.2\183f7c95fc981f3e97d008b363341343508848e\log4j-slf4j-impl-2.17.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.36\6c62681a2f655b49963a5983b8b0950a6120ae14\slf4j-api-1.7.36.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-math3\3.6.1\e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf\commons-math3-3.6.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-security\9.4.56.v20240826\b22ab0397e893d9c092ade34a8e826ef576b285c\jetty-security-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-util-ajax\9.4.56.v20240826\2f2695de1ae62d84ca8336c7e6ddedc80aa2e521\jetty-util-ajax-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler-proxy\4.1.110.Final\b7fb401dd47c79e6b99f2319ac3b561c50c31c30\netty-handler-proxy-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http2\4.1.110.Final\e0849843eb5b1c036b12551baca98a9f7ff847a0\netty-codec-http2-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http\4.1.110.Final\9d05cd927209ea25bbf342962c00b8e5a828c2a4\netty-codec-http-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver-dns\4.1.110.Final\3e687cdc4ecdbbad07508a11b715bdf95fa20939\netty-resolver-dns-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.110.Final\168db749c22652ee7fed1ebf7ec46ce856d75e51\netty-handler-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.110.Final\a7096e7c0a25a983647909d7513f5d4943d589c0\netty-transport-native-unix-common-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-socks\4.1.110.Final\4d54c8d5b95b14756043efb59b8c3e62ec67aa43\netty-codec-socks-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-dns\4.1.110.Final\381c5bf8b7570c163fa7893a26d02b7ac36ff6eb\netty-codec-dns-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.110.Final\f1fa43b03e93ab88e805b6a4e3e83780c80b47d2\netty-codec-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.110.Final\b91f04c39ac14d6a29d07184ef305953ee6e0348\netty-transport-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.110.Final\3d918a9ee057d995c362902b54634fc307132aac\netty-buffer-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.110.Final\66c15921104cda0159b34e316541bc765dfaf3c0\netty-resolver-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.110.Final\ec361e7e025c029be50c55c8480080cabcbc01e7\netty-common-4.1.110.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.16.1\9456bb3cdd0f79f91a5f730a1b1bb041a380c91f\jackson-core-2.16.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.17.2\f42d6afa111b4dec5d2aea0fe2197240749a4ea6\log4j-api-2.17.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-server\9.4.56.v20240826\65ce500f7cad946ce0e172c6ce90319caa29e787\jetty-server-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-http\9.4.56.v20240826\e522a857d234e5ade679abfae807bcf4ecdd6f2e\jetty-http-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-io\9.4.56.v20240826\533e7cbc5efc1d58d14cefb68904cd3af47fc316\jetty-io-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-util\9.4.56.v20240826\696cf9f9160e3a0ff208db614af118915cbdcf2d\jetty-util-9.4.56.v20240826.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\javax.servlet\javax.servlet-api\3.1.0\3cd63d075497751784b2fa84be59432f4905bf7c\javax.servlet-api-3.1.0.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-core\src\main\java</SrcDir>
+    <Plugin id="com.h3xstream.findsecbugs" enabled="true"/>
+  </Project>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="c8e314e107ec05a43b7810ad2c381fa6" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class com.linkedin.cruisecontrol.common.config.AbstractConfig at new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" start="29" end="345" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java">
+        <Message>At AbstractConfig.java:[lines 29-345]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.common.config.AbstractConfig</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" name="&lt;init&gt;" signature="(Lcom/linkedin/cruisecontrol/common/config/ConfigDef;Ljava/util/Map;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" start="67" end="68" startBytecode="0" endBytecode="91" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" primary="true" start="67" end="67" startBytecode="4" endBytecode="4" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java">
+      <Message>At AbstractConfig.java:[line 67]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" start="67" end="67" startBytecode="4" endBytecode="4" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java">
+      <Message>At AbstractConfig.java:[line 67]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="551c46d042f5656a833faf786d7dcf73" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class com.linkedin.cruisecontrol.common.config.AbstractConfig at new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map, boolean) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" start="29" end="345" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java">
+        <Message>At AbstractConfig.java:[lines 29-345]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.common.config.AbstractConfig</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" name="&lt;init&gt;" signature="(Lcom/linkedin/cruisecontrol/common/config/ConfigDef;Ljava/util/Map;Z)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" start="45" end="64" startBytecode="0" endBytecode="488" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map, boolean)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" primary="true" start="49" end="49" startBytecode="89" endBytecode="89" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java">
+      <Message>At AbstractConfig.java:[line 49]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" start="49" end="49" startBytecode="89" endBytecode="89" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java">
+      <Message>At AbstractConfig.java:[line 49]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="bca6e3d689275f1c71de18ed7b277bda" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map, boolean) may expose internal representation by storing an externally mutable object into AbstractConfig._originals</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" start="29" end="345" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java">
+        <Message>At AbstractConfig.java:[lines 29-345]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.common.config.AbstractConfig</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" name="&lt;init&gt;" signature="(Lcom/linkedin/cruisecontrol/common/config/ConfigDef;Ljava/util/Map;Z)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" start="45" end="64" startBytecode="0" endBytecode="488" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.common.config.AbstractConfig(ConfigDef, Map, boolean)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" name="_originals" signature="Ljava/util/Map;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java">
+        <Message>In AbstractConfig.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.common.config.AbstractConfig._originals</Message>
+    </Field>
+    <LocalVariable name="originals" register="2" pc="95" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named originals</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.AbstractConfig" primary="true" start="52" end="52" startBytecode="95" endBytecode="95" sourcefile="AbstractConfig.java" sourcepath="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\AbstractConfig.java">
+      <Message>At AbstractConfig.java:[line 52]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="6f942cbb98f1c7fc3964529a952bdd7e" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.cruisecontrol.common.config.Config(List) may expose internal representation by storing an externally mutable object into Config._configValues</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.common.config.Config" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.Config" start="13" end="18" sourcefile="Config.java" sourcepath="com/linkedin/cruisecontrol/common/config/Config.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\Config.java">
+        <Message>At Config.java:[lines 13-18]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.common.config.Config</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.common.config.Config" name="&lt;init&gt;" signature="(Ljava/util/List;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.Config" start="13" end="15" startBytecode="0" endBytecode="87" sourcefile="Config.java" sourcepath="com/linkedin/cruisecontrol/common/config/Config.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\Config.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.common.config.Config(List)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.common.config.Config" name="_configValues" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.Config" sourcefile="Config.java" sourcepath="com/linkedin/cruisecontrol/common/config/Config.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\Config.java">
+        <Message>In Config.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.common.config.Config._configValues</Message>
+    </Field>
+    <LocalVariable name="configValues" register="1" pc="6" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named configValues</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.Config" primary="true" start="14" end="14" startBytecode="6" endBytecode="6" sourcefile="Config.java" sourcepath="com/linkedin/cruisecontrol/common/config/Config.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\Config.java">
+      <Message>At Config.java:[line 14]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="POTENTIAL_XML_INJECTION" priority="2" rank="12" abbrev="SECXML" category="SECURITY" instanceHash="9a3e63191e0b03af3d2cdee643302cfd" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>An unsafe string is potentially injected into an XML string</ShortMessage>
+    <LongMessage>java/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder; is potentially injected into an XML string in method com.linkedin.cruisecontrol.common.config.ConfigDef.toHtmlTable().</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.common.config.ConfigDef" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="63" end="1296" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+        <Message>At ConfigDef.java:[lines 63-1296]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.common.config.ConfigDef</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.common.config.ConfigDef" name="toHtmlTable" signature="()Ljava/lang/String;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="1082" end="1107" startBytecode="0" endBytecode="472" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java"/>
+      <Message>In method com.linkedin.cruisecontrol.common.config.ConfigDef.toHtmlTable()</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" primary="true" start="1101" end="1101" startBytecode="189" endBytecode="189" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 1101]</Message>
+    </SourceLine>
+    <String value="java/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;" role="Sink method">
+      <Message>Sink method java/lang/StringBuilder.append(Ljava/lang/String;)Ljava/lang/StringBuilder;</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._documentation" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._documentation</Message>
+    </String>
+    <String value="java/lang/Object.toString()Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source java/lang/Object.toString()Ljava/lang/String;</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/utils/Utils.join(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/utils/Utils.join(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String;</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._validator" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._validator</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef$Importance.toString()Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$Importance.toString()Ljava/lang/String;</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef.convertToString(Ljava/lang/Object;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Type;)Ljava/lang/String; parameter 1" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef.convertToString(Ljava/lang/Object;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Type;)Ljava/lang/String; parameter 1</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef$Type.toString()Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$Type.toString()Ljava/lang/String;</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/utils/Utils.join(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String; parameter 0" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/utils/Utils.join(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String; parameter 0</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/utils/Utils.join(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String; parameter 1" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/utils/Utils.join(Ljava/util/Collection;Ljava/lang/String;)Ljava/lang/String; parameter 1</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef.getConfigValue(Lcom/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey;Ljava/lang/String;)Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef.getConfigValue(Lcom/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey;Ljava/lang/String;)Ljava/lang/String;</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._type" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._type</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef.convertToString(Ljava/lang/Object;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Type;)Ljava/lang/String;" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef.convertToString(Ljava/lang/Object;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Type;)Ljava/lang/String;</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._defaultValue" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._defaultValue</Message>
+    </String>
+    <String value="java/util/Iterator.next()Ljava/lang/Object;" role="Unknown source">
+      <Message>Unknown source java/util/Iterator.next()Ljava/lang/Object;</Message>
+    </String>
+    <String value="java/util/Collection.iterator()Ljava/util/Iterator;" role="Unknown source">
+      <Message>Unknown source java/util/Collection.iterator()Ljava/util/Iterator;</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._importance" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._importance</Message>
+    </String>
+    <String value="com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._name" role="Unknown source">
+      <Message>Unknown source com/linkedin/cruisecontrol/common/config/ConfigDef$ConfigKey._name</Message>
+    </String>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="738" end="738" startBytecode="11" endBytecode="11" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 738]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="749" end="749" startBytecode="73" endBytecode="73" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 749]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="752" end="752" startBytecode="85" endBytecode="85" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 752]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="1050" end="1050" startBytecode="201" endBytecode="201" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 1050]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="1052" end="1052" startBytecode="206" endBytecode="206" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 1052]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="1054" end="1054" startBytecode="214" endBytecode="214" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 1054]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="1060" end="1060" startBytecode="250" endBytecode="250" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 1060]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="1070" end="1070" startBytecode="284" endBytecode="284" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 1070]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="1072" end="1072" startBytecode="294" endBytecode="294" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 1072]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef" start="1101" end="1101" startBytecode="186" endBytecode="186" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 1101]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.utils.Utils" start="79" end="79" startBytecode="9" endBytecode="9" sourcefile="Utils.java" sourcepath="com/linkedin/cruisecontrol/common/utils/Utils.java" relSourcepath="java\com\linkedin\cruisecontrol\common\utils\Utils.java">
+      <Message>At Utils.java:[line 79]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.utils.Utils" start="81" end="81" startBytecode="31" endBytecode="31" sourcefile="Utils.java" sourcepath="com/linkedin/cruisecontrol/common/utils/Utils.java" relSourcepath="java\com\linkedin\cruisecontrol\common\utils\Utils.java">
+      <Message>At Utils.java:[line 81]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.utils.Utils" start="83" end="83" startBytecode="46" endBytecode="46" sourcefile="Utils.java" sourcepath="com/linkedin/cruisecontrol/common/utils/Utils.java" relSourcepath="java\com\linkedin\cruisecontrol\common\utils\Utils.java">
+      <Message>At Utils.java:[line 83]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.utils.Utils" start="86" end="86" startBytecode="54" endBytecode="54" sourcefile="Utils.java" sourcepath="com/linkedin/cruisecontrol/common/utils/Utils.java" relSourcepath="java\com\linkedin\cruisecontrol\common\utils\Utils.java">
+      <Message>At Utils.java:[line 86]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="3ba2ed57eebc43a97e50de3c19698ce8" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey(String, ConfigDef$Type, Object, ConfigDef$Validator, ConfigDef$Importance, String, String, int, ConfigDef$Width, String, List, ConfigDef$Recommender, boolean) may expose internal representation by storing an externally mutable object into ConfigDef$ConfigKey._dependents</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey" start="967" end="1039" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+        <Message>At ConfigDef.java:[lines 967-1039]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey" name="&lt;init&gt;" signature="(Ljava/lang/String;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Type;Ljava/lang/Object;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Validator;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Importance;Ljava/lang/String;Ljava/lang/String;ILcom/linkedin/cruisecontrol/common/config/ConfigDef$Width;Ljava/lang/String;Ljava/util/List;Lcom/linkedin/cruisecontrol/common/config/ConfigDef$Recommender;Z)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey" start="967" end="984" startBytecode="0" endBytecode="490" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey(String, ConfigDef$Type, Object, ConfigDef$Validator, ConfigDef$Importance, String, String, int, ConfigDef$Width, String, List, ConfigDef$Recommender, boolean)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey" name="_dependents" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+        <Message>In ConfigDef.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey._dependents</Message>
+    </Field>
+    <LocalVariable name="dependents" register="11" pc="89" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named dependents</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigDef$ConfigKey" primary="true" start="977" end="977" startBytecode="89" endBytecode="89" sourcefile="ConfigDef.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigDef.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigDef.java">
+      <Message>At ConfigDef.java:[line 977]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="c176c0931cb02ac93627cec94d6d8042" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.cruisecontrol.common.config.ConfigValue(String, Object, List, List) may expose internal representation by storing an externally mutable object into ConfigValue._errorMessages</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.common.config.ConfigValue" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" start="21" end="101" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java">
+        <Message>At ConfigValue.java:[lines 21-101]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.common.config.ConfigValue</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.common.config.ConfigValue" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/Object;Ljava/util/List;Ljava/util/List;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" start="24" end="30" startBytecode="0" endBytecode="164" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.common.config.ConfigValue(String, Object, List, List)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.common.config.ConfigValue" name="_errorMessages" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java">
+        <Message>In ConfigValue.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.common.config.ConfigValue._errorMessages</Message>
+    </Field>
+    <LocalVariable name="errorMessages" register="4" pc="22" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named errorMessages</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" primary="true" start="28" end="28" startBytecode="22" endBytecode="22" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java">
+      <Message>At ConfigValue.java:[line 28]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="b88c4a4cf0801e97c3add827c6b8db02" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.cruisecontrol.common.config.ConfigValue(String, Object, List, List) may expose internal representation by storing an externally mutable object into ConfigValue._recommendedValues</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.common.config.ConfigValue" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" start="21" end="101" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java">
+        <Message>At ConfigValue.java:[lines 21-101]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.common.config.ConfigValue</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.common.config.ConfigValue" name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/Object;Ljava/util/List;Ljava/util/List;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" start="24" end="30" startBytecode="0" endBytecode="164" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.common.config.ConfigValue(String, Object, List, List)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.common.config.ConfigValue" name="_recommendedValues" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java">
+        <Message>In ConfigValue.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.common.config.ConfigValue._recommendedValues</Message>
+    </Field>
+    <LocalVariable name="recommendedValues" register="3" pc="16" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named recommendedValues</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" primary="true" start="27" end="27" startBytecode="16" endBytecode="16" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java">
+      <Message>At ConfigValue.java:[line 27]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="a226ec585d9335b52585ac148e6daafd" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.linkedin.cruisecontrol.common.config.ConfigValue.recommendedValues(List) may expose internal representation by storing an externally mutable object into ConfigValue._recommendedValues</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.common.config.ConfigValue" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" start="21" end="101" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java">
+        <Message>At ConfigValue.java:[lines 21-101]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.common.config.ConfigValue</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.common.config.ConfigValue" name="recommendedValues" signature="(Ljava/util/List;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" start="49" end="50" startBytecode="0" endBytecode="79" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java"/>
+      <Message>In method com.linkedin.cruisecontrol.common.config.ConfigValue.recommendedValues(List)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.common.config.ConfigValue" name="_recommendedValues" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java">
+        <Message>In ConfigValue.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.common.config.ConfigValue._recommendedValues</Message>
+    </Field>
+    <LocalVariable name="recommendedValues" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named recommendedValues</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.common.config.ConfigValue" primary="true" start="49" end="49" startBytecode="2" endBytecode="2" sourcefile="ConfigValue.java" sourcepath="com/linkedin/cruisecontrol/common/config/ConfigValue.java" relSourcepath="java\com\linkedin\cruisecontrol\common\config\ConfigValue.java">
+      <Message>At ConfigValue.java:[line 49]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="2619b2573f09d9e337a266e95fd803e8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig at new com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig(Map) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig" start="61" end="116" sourcefile="PercentileMetricAnomalyFinderConfig.java" sourcepath="com/linkedin/cruisecontrol/detector/metricanomaly/PercentileMetricAnomalyFinderConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinderConfig.java">
+        <Message>At PercentileMetricAnomalyFinderConfig.java:[lines 61-116]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig" name="&lt;init&gt;" signature="(Ljava/util/Map;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig" start="88" end="90" startBytecode="0" endBytecode="90" sourcefile="PercentileMetricAnomalyFinderConfig.java" sourcepath="com/linkedin/cruisecontrol/detector/metricanomaly/PercentileMetricAnomalyFinderConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinderConfig.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig(Map)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig" primary="true" start="89" end="89" startBytecode="9" endBytecode="9" sourcefile="PercentileMetricAnomalyFinderConfig.java" sourcepath="com/linkedin/cruisecontrol/detector/metricanomaly/PercentileMetricAnomalyFinderConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinderConfig.java">
+      <Message>At PercentileMetricAnomalyFinderConfig.java:[line 89]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.detector.metricanomaly.PercentileMetricAnomalyFinderConfig" start="89" end="89" startBytecode="9" endBytecode="9" sourcefile="PercentileMetricAnomalyFinderConfig.java" sourcepath="com/linkedin/cruisecontrol/detector/metricanomaly/PercentileMetricAnomalyFinderConfig.java" relSourcepath="java\com\linkedin\cruisecontrol\detector\metricanomaly\PercentileMetricAnomalyFinderConfig.java">
+      <Message>At PercentileMetricAnomalyFinderConfig.java:[line 89]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="74f345741bcb2782563f8f16b5c808b8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues at new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues(Map) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" start="33" end="231" sourcefile="AggregatedMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.java">
+        <Message>At AggregatedMetricValues.java:[lines 33-231]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" name="&lt;init&gt;" signature="(Ljava/util/Map;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" start="41" end="51" startBytecode="0" endBytecode="275" sourcefile="AggregatedMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues(Map)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" primary="true" start="47" end="47" startBytecode="106" endBytecode="106" sourcefile="AggregatedMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.java">
+      <Message>At AggregatedMetricValues.java:[line 47]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" start="47" end="47" startBytecode="106" endBytecode="106" sourcefile="AggregatedMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.java">
+      <Message>At AggregatedMetricValues.java:[line 47]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="718bae9ee2f47b429a7aae3771c4836a" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues(Map) may expose internal representation by storing an externally mutable object into AggregatedMetricValues._metricValues</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" start="33" end="231" sourcefile="AggregatedMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.java">
+        <Message>At AggregatedMetricValues.java:[lines 33-231]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" name="&lt;init&gt;" signature="(Ljava/util/Map;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" start="41" end="51" startBytecode="0" endBytecode="275" sourcefile="AggregatedMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues(Map)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" name="_metricValues" signature="Ljava/util/Map;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" sourcefile="AggregatedMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.java">
+        <Message>In AggregatedMetricValues.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues._metricValues</Message>
+    </Field>
+    <LocalVariable name="valuesByMetricId" register="1" pc="112" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named valuesByMetricId</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregatedMetricValues" primary="true" start="50" end="50" startBytecode="112" endBytecode="112" sourcefile="AggregatedMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregatedMetricValues.java">
+      <Message>At AggregatedMetricValues.java:[line 50]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="e89bd594c66aec2fd97844bd8a9df901" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions at new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions(double, double, int, int, Set, AggregationOptions$Granularity, boolean) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions" start="55" end="175" sourcefile="AggregationOptions.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregationOptions.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregationOptions.java">
+        <Message>At AggregationOptions.java:[lines 55-175]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions" name="&lt;init&gt;" signature="(DDIILjava/util/Set;Lcom/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregationOptions$Granularity;Z)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions" start="55" end="68" startBytecode="0" endBytecode="387" sourcefile="AggregationOptions.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregationOptions.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregationOptions.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions(double, double, int, int, Set, AggregationOptions$Granularity, boolean)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions" primary="true" start="57" end="57" startBytecode="19" endBytecode="19" sourcefile="AggregationOptions.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregationOptions.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregationOptions.java">
+      <Message>At AggregationOptions.java:[line 57]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.AggregationOptions" start="57" end="57" startBytecode="19" endBytecode="19" sourcefile="AggregationOptions.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregationOptions.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\AggregationOptions.java">
+      <Message>At AggregationOptions.java:[line 57]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="42031a549a82841d485801f7b5a9e27e" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult(long, MetricSampleCompleteness) may expose internal representation by storing an externally mutable object into MetricSampleAggregationResult._completeness</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult" start="32" end="98" sourcefile="MetricSampleAggregationResult.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleAggregationResult.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregationResult.java">
+        <Message>At MetricSampleAggregationResult.java:[lines 32-98]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult" name="&lt;init&gt;" signature="(JLcom/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult" start="38" end="42" startBytecode="0" endBytecode="138" sourcefile="MetricSampleAggregationResult.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleAggregationResult.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregationResult.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult(long, MetricSampleCompleteness)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult" name="_completeness" signature="Lcom/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult" sourcefile="MetricSampleAggregationResult.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleAggregationResult.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregationResult.java">
+        <Message>In MetricSampleAggregationResult.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult._completeness</Message>
+    </Field>
+    <LocalVariable name="completeness" register="3" pc="29" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named completeness</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleAggregationResult" primary="true" start="41" end="41" startBytecode="29" endBytecode="29" sourcefile="MetricSampleAggregationResult.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleAggregationResult.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleAggregationResult.java">
+      <Message>At MetricSampleAggregationResult.java:[line 41]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="5856dc38227632f77519ada4576efa4c" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.extrapolatedEntitiesByWindowIndex() may expose internal representation by returning MetricSampleCompleteness._extrapolatedEntitiesByWindowIndex</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="30" end="206" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>At MetricSampleCompleteness.java:[lines 30-206]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="extrapolatedEntitiesByWindowIndex" signature="()Ljava/util/SortedMap;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="138" end="138" startBytecode="0" endBytecode="64" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java"/>
+      <Message>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.extrapolatedEntitiesByWindowIndex()</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="_extrapolatedEntitiesByWindowIndex" signature="Ljava/util/SortedMap;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>In MetricSampleCompleteness.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._extrapolatedEntitiesByWindowIndex</Message>
+    </Field>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true" start="138" end="138" startBytecode="4" endBytecode="4" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+      <Message>At MetricSampleCompleteness.java:[line 138]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="ff0d3ed13039540e7ec79fae762fbf66" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityGroupRatioByWindowIndex() may expose internal representation by returning MetricSampleCompleteness._validEntityGroupRatioByWindowIndex</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="30" end="206" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>At MetricSampleCompleteness.java:[lines 30-206]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="validEntityGroupRatioByWindowIndex" signature="()Ljava/util/SortedMap;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="130" end="130" startBytecode="0" endBytecode="64" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java"/>
+      <Message>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityGroupRatioByWindowIndex()</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="_validEntityGroupRatioByWindowIndex" signature="Ljava/util/SortedMap;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>In MetricSampleCompleteness.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._validEntityGroupRatioByWindowIndex</Message>
+    </Field>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true" start="130" end="130" startBytecode="4" endBytecode="4" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+      <Message>At MetricSampleCompleteness.java:[line 130]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="ddf8aba71d17f1db3b51b5616c2802b5" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityRatioByWindowIndex() may expose internal representation by returning MetricSampleCompleteness._validEntityRatioByWindowIndex</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="30" end="206" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>At MetricSampleCompleteness.java:[lines 30-206]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="validEntityRatioByWindowIndex" signature="()Ljava/util/SortedMap;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="108" end="108" startBytecode="0" endBytecode="64" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java"/>
+      <Message>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityRatioByWindowIndex()</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="_validEntityRatioByWindowIndex" signature="Ljava/util/SortedMap;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>In MetricSampleCompleteness.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._validEntityRatioByWindowIndex</Message>
+    </Field>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true" start="108" end="108" startBytecode="4" endBytecode="4" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+      <Message>At MetricSampleCompleteness.java:[line 108]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="772195292f778a7c79fd47860bb164a" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityRatioWithGroupGranularityByWindowIndex() may expose internal representation by returning MetricSampleCompleteness._validEntityRatioWithGroupGranularityByWindowIndex</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="30" end="206" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>At MetricSampleCompleteness.java:[lines 30-206]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="validEntityRatioWithGroupGranularityByWindowIndex" signature="()Ljava/util/SortedMap;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="119" end="119" startBytecode="0" endBytecode="64" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java"/>
+      <Message>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validEntityRatioWithGroupGranularityByWindowIndex()</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="_validEntityRatioWithGroupGranularityByWindowIndex" signature="Ljava/util/SortedMap;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>In MetricSampleCompleteness.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._validEntityRatioWithGroupGranularityByWindowIndex</Message>
+    </Field>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true" start="119" end="119" startBytecode="4" endBytecode="4" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+      <Message>At MetricSampleCompleteness.java:[line 119]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="ac0e00e7ec4013e9ece87b7380d5a12f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validWindowIndices() may expose internal representation by returning MetricSampleCompleteness._validWindowIndices</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="30" end="206" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>At MetricSampleCompleteness.java:[lines 30-206]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="validWindowIndices" signature="()Ljava/util/SortedSet;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" start="150" end="150" startBytecode="0" endBytecode="64" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java"/>
+      <Message>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness.validWindowIndices()</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" name="_validWindowIndices" signature="Ljava/util/SortedSet;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+        <Message>In MetricSampleCompleteness.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness._validWindowIndices</Message>
+    </Field>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.MetricSampleCompleteness" primary="true" start="150" end="150" startBytecode="4" endBytecode="4" sourcefile="MetricSampleCompleteness.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\MetricSampleCompleteness.java">
+      <Message>At MetricSampleCompleteness.java:[line 150]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="2bb6c814e0520e3aac319e53a3fc79d8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues at new com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues(int, byte, int) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues" start="30" end="473" sourcefile="RawMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/RawMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValues.java">
+        <Message>At RawMetricValues.java:[lines 30-473]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues" name="&lt;init&gt;" signature="(IBI)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues" start="50" end="62" startBytecode="0" endBytecode="221" sourcefile="RawMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/RawMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValues.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues(int, byte, int)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues" primary="true" start="52" end="52" startBytecode="18" endBytecode="18" sourcefile="RawMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/RawMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValues.java">
+      <Message>At RawMetricValues.java:[line 52]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.RawMetricValues" start="52" end="52" startBytecode="18" endBytecode="18" sourcefile="RawMetricValues.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/RawMetricValues.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\RawMetricValues.java">
+      <Message>At RawMetricValues.java:[line 52]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" instanceHash="1bb61a240be2a84e2362dd34d4fe48a3" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by returning reference to mutable object</ShortMessage>
+    <LongMessage>com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations.metricValues() may expose internal representation by returning ValuesAndExtrapolations._metricValues</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" start="27" end="99" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+        <Message>At ValuesAndExtrapolations.java:[lines 27-99]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" name="metricValues" signature="()Lcom/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" start="42" end="42" startBytecode="0" endBytecode="46" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java"/>
+      <Message>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations.metricValues()</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" name="_metricValues" signature="Lcom/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+        <Message>In ValuesAndExtrapolations.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations._metricValues</Message>
+    </Field>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" primary="true" start="42" end="42" startBytecode="4" endBytecode="4" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+      <Message>At ValuesAndExtrapolations.java:[line 42]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="5d15b3ba8ec089e2366ffb335c9124f9" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations(AggregatedMetricValues, Map) may expose internal representation by storing an externally mutable object into ValuesAndExtrapolations._extrapolations</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" start="27" end="99" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+        <Message>At ValuesAndExtrapolations.java:[lines 27-99]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" name="&lt;init&gt;" signature="(Lcom/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues;Ljava/util/Map;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" start="27" end="30" startBytecode="0" endBytecode="106" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations(AggregatedMetricValues, Map)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" name="_extrapolations" signature="Ljava/util/Map;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+        <Message>In ValuesAndExtrapolations.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations._extrapolations</Message>
+    </Field>
+    <LocalVariable name="extrapolations" register="2" pc="11" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named extrapolations</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" primary="true" start="29" end="29" startBytecode="11" endBytecode="11" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+      <Message>At ValuesAndExtrapolations.java:[line 29]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="3ef689088b49de9484ef96ae13d9b29f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations(AggregatedMetricValues, Map) may expose internal representation by storing an externally mutable object into ValuesAndExtrapolations._metricValues</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" start="27" end="99" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+        <Message>At ValuesAndExtrapolations.java:[lines 27-99]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" name="&lt;init&gt;" signature="(Lcom/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues;Ljava/util/Map;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" start="27" end="30" startBytecode="0" endBytecode="106" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java"/>
+      <Message>In method new com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations(AggregatedMetricValues, Map)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" name="_metricValues" signature="Lcom/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+        <Message>In ValuesAndExtrapolations.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations._metricValues</Message>
+    </Field>
+    <LocalVariable name="metricValues" register="1" pc="6" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named metricValues</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" primary="true" start="28" end="28" startBytecode="6" endBytecode="6" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+      <Message>At ValuesAndExtrapolations.java:[line 28]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="e3a17abfc2c4f89490e6d4752f008410" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations.setWindows(List) may expose internal representation by storing an externally mutable object into ValuesAndExtrapolations._windows</LongMessage>
+    <Class classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" start="27" end="99" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+        <Message>At ValuesAndExtrapolations.java:[lines 27-99]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations</Message>
+    </Class>
+    <Method classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" name="setWindows" signature="(Ljava/util/List;)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" start="81" end="82" startBytecode="0" endBytecode="79" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java"/>
+      <Message>In method com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations.setWindows(List)</Message>
+    </Method>
+    <Field classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" name="_windows" signature="Ljava/util/List;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+        <Message>In ValuesAndExtrapolations.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations._windows</Message>
+    </Field>
+    <LocalVariable name="windows" register="1" pc="2" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named windows</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.cruisecontrol.monitor.sampling.aggregator.ValuesAndExtrapolations" primary="true" start="81" end="81" startBytecode="2" endBytecode="2" sourcefile="ValuesAndExtrapolations.java" sourcepath="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" relSourcepath="java\com\linkedin\cruisecontrol\monitor\sampling\aggregator\ValuesAndExtrapolations.java">
+      <Message>At ValuesAndExtrapolations.java:[line 81]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugCategory category="MALICIOUS_CODE">
+    <Description>Malicious code vulnerability</Description>
+  </BugCategory>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugPattern type="EI_EXPOSE_REP2" abbrev="EI2" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by incorporating reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="EI_EXPOSE_REP" abbrev="EI" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by returning reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> Returning a reference to a mutable object value stored in one of the object's fields
+  exposes the internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Returning a new copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="POTENTIAL_XML_INJECTION" abbrev="SECXML" category="SECURITY">
+    <ShortDescription>An unsafe string is potentially injected into an XML string</ShortDescription>
+    <Details><![CDATA[
+        
+<p>
+Unsafe strings (e.g. from a user input) may contain XML tags. If such a string is inserted into an XML document then it
+may change its structure to a valid but semanticallly different document. To prevent this unsafe strings must b
+sanitized first.
+</p>
+
+<p>
+<b>Example:</b><br/>
+
+An XML document may look like this:<br/>
+
+<pre>
+&langle;product&rangle;
+    &langle;name&rangle;Cell Phone&langle;/name&rangle;
+    &langle;price&rangle;800&langle;/price&rangle;
+    &langle;amount&rangle;1&langle;/amount&rangle;
+&langle;/product&rangle;
+</pre>
+<br/>
+
+An attacker may put the following string to the field "amount":<br/>
+
+<pre>
+1&langle;/amount&rangle;&langle;price&rangle;1&langle;/price&rangle;&langle;amount&rangle;1
+</pre>
+<br/>
+
+If the XML parser works in a way that the second price overwrites the first one then the attacker may buy the cell
+phone for 1 singe dollar.
+</p>
+
+<p>References</b><br>
+<a href="https://wiki.sei.cmu.edu/confluence/display/java/IDS16-J.+Prevent+XML+Injection">IDS16-J. Prevent XML Injection</a><br/>
+</p>
+        
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="CT_CONSTRUCTOR_THROW" abbrev="CT" category="BAD_PRACTICE">
+    <ShortDescription>Be wary of letting constructors throw exceptions.</ShortDescription>
+    <Details><![CDATA[
+      
+            <p>Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks</p>
+
+            <p>A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared as final, or by a clever use of a private constructor.</p>
+
+            <p>See <a href="https://wiki.sei.cmu.edu/confluence/display/java/OBJ11-J.+Be+wary+of+letting+constructors+throw+exceptions"><code>SEI CERT Rule OBJ-11</code></a>
+            for more information.
+            </p>
+            
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="CT">
+    <Description>Constructor throws</Description>
+  </BugCode>
+  <BugCode abbrev="EI">
+    <Description>Method returning array may expose internal representation</Description>
+  </BugCode>
+  <BugCode abbrev="SECXML">
+    <Description>Potential XML Injection</Description>
+  </BugCode>
+  <BugCode abbrev="EI2">
+    <Description>Storing reference to mutable object</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="6">
+    <MissingClass>accept</MissingClass>
+    <MissingClass>apply</MissingClass>
+    <MissingClass>applyAsInt</MissingClass>
+    <MissingClass>get</MissingClass>
+    <MissingClass>makeConcatWithConstants</MissingClass>
+    <MissingClass>test</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sat, 27 Dec 2025 12:50:35 +0100" total_classes="0" referenced_classes="0" total_bugs="24" total_size="0" num_packages="3" java_version="17.0.12" vm_version="17.0.12+8-LTS-286" cpu_seconds="62.30" clock_seconds="20.27" peak_mbytes="278.65" alloc_mbytes="4004.00" gc_seconds="0.11" priority_2="24">
+    <FileStats path="com/linkedin/cruisecontrol/common/config/AbstractConfig.java" bugCount="3" size="0" bugHash="f17bfc1d11e77f1028b55681ec1fae21"/>
+    <FileStats path="com/linkedin/cruisecontrol/common/config/Config.java" bugCount="1" size="0" bugHash="a101a0884ef3a8af9fd8a6159e617303"/>
+    <FileStats path="com/linkedin/cruisecontrol/common/config/ConfigDef.java" bugCount="2" size="0" bugHash="b2f336fe90d8f98684f5420f8ccb4b07"/>
+    <FileStats path="com/linkedin/cruisecontrol/common/config/ConfigValue.java" bugCount="3" size="0" bugHash="2e181fb7368d607f7be47ded404bcfb3"/>
+    <FileStats path="com/linkedin/cruisecontrol/detector/metricanomaly/PercentileMetricAnomalyFinderConfig.java" bugCount="1" size="0" bugHash="9d0be4f499db1b58955c8959e1738356"/>
+    <FileStats path="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregatedMetricValues.java" bugCount="2" size="0" bugHash="108bf5eacd102ffea5fff5afab068650"/>
+    <FileStats path="com/linkedin/cruisecontrol/monitor/sampling/aggregator/AggregationOptions.java" bugCount="1" size="0" bugHash="eab4a1bf3ed61e0f505784aeaf0b6006"/>
+    <FileStats path="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleAggregationResult.java" bugCount="1" size="0" bugHash="c6563bb81005919f387d3c39d410cfb0"/>
+    <FileStats path="com/linkedin/cruisecontrol/monitor/sampling/aggregator/MetricSampleCompleteness.java" bugCount="5" size="0" bugHash="59d07047ecc7864473f2185b97c5d846"/>
+    <FileStats path="com/linkedin/cruisecontrol/monitor/sampling/aggregator/RawMetricValues.java" bugCount="1" size="0" bugHash="e17a343e42d3a28808ca2e548d08032f"/>
+    <FileStats path="com/linkedin/cruisecontrol/monitor/sampling/aggregator/ValuesAndExtrapolations.java" bugCount="4" size="0" bugHash="39b12f33845b54157905591fd2aec00c"/>
+    <FindBugsProfile></FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

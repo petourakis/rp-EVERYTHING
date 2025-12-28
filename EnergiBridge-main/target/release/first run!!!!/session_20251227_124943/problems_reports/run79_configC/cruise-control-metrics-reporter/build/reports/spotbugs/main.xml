@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.9.0" sequence="0" timestamp="1766836236043" analysisTimestamp="1766836236043" release="">
+  <Project projectName="cruise-control-metrics-reporter (spotbugsMain)">
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\config\EnvConfigProvider.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\CruiseControlMetricsReporter$1.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\CruiseControlMetricsReporter.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\CruiseControlMetricsReporterConfig.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\CruiseControlMetricsUtils.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\exception\CruiseControlMetricsReporterException.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\exception\KafkaTopicDescriptionException.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\exception\UnknownVersionException.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\BrokerMetric.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\ContainerMetricUtils$CgroupFiles.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\ContainerMetricUtils.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\CruiseControlMetric$MetricClassId.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\CruiseControlMetric.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\MetricSerde$1.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\MetricSerde.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\MetricsUtils.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\PartitionMetric.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\RawMetricType$MetricScope.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\RawMetricType.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\TopicMetric.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\YammerMetricProcessor$Context.class</Jar>
+    <Jar>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\build\classes\java\main\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\YammerMetricProcessor.class</Jar>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\com.yammer.metrics\metrics-core\2.2.0\f82c035cfa786d3cbec362c38c22a5f5b1bc8724\metrics-core-2.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j-impl\2.17.2\183f7c95fc981f3e97d008b363341343508848e\log4j-slf4j-impl-2.17.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.36\6c62681a2f655b49963a5983b8b0950a6120ae14\slf4j-api-1.7.36.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.kafka\kafka_2.13\4.0.0\ef1ec5f4625c04d72fc0ca84aaf6f4edfdbecebd\kafka_2.13-4.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.kafka\kafka-server\4.0.0\ec7dbb82ea2fe5cb0872d4e6451a0272efad7c7b\kafka-server-4.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.kafka\kafka-clients\4.0.0\883a768864948887d44f53f16ffac44dd952f003\kafka-clients-4.0.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.15.2\4724a65ac8e8d156a24898d50fd5dbd3642870b8\jackson-annotations-2.15.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.15.2\a6fe1836469a69b3ff66037c324d75fc66ef137c\jackson-core-2.15.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.15.2\9353b021f10c307c00328f52090de2bdb4b6ff9c\jackson-databind-2.15.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.17.2\f42d6afa111b4dec5d2aea0fe2197240749a4ea6\log4j-api-2.17.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\petou\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.13.15\ed6f1d58968b16c5f9067d5cac032d952552de58\scala-library-2.13.15.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\petou\OneDrive\Documentos\GitHub\rp-EVERYTHING\EnergiBridge-main\target\release\brp-sustainability\projects\cruise-control\cruise-control-metrics-reporter\src\main\java</SrcDir>
+    <Plugin id="com.h3xstream.findsecbugs" enabled="true"/>
+  </Project>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="12" abbrev="SECPTI" category="SECURITY" instanceHash="2e63fa0e03cbf92592880a4cb8a9672f" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="com.linkedin.kafka.cruisecontrol.metricsreporter.CruiseControlMetricsUtils" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.CruiseControlMetricsUtils" start="28" end="238" sourcefile="CruiseControlMetricsUtils.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsUtils.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\CruiseControlMetricsUtils.java">
+        <Message>At CruiseControlMetricsUtils.java:[lines 28-238]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.kafka.cruisecontrol.metricsreporter.CruiseControlMetricsUtils</Message>
+    </Class>
+    <Method classname="com.linkedin.kafka.cruisecontrol.metricsreporter.CruiseControlMetricsUtils" name="readConfig" signature="(Ljava/lang/String;)Lcom/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsReporterConfig;" isStatic="true" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.CruiseControlMetricsUtils" start="232" end="238" startBytecode="0" endBytecode="236" sourcefile="CruiseControlMetricsUtils.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsUtils.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\CruiseControlMetricsUtils.java"/>
+      <Message>In method com.linkedin.kafka.cruisecontrol.metricsreporter.CruiseControlMetricsUtils.readConfig(String)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.CruiseControlMetricsUtils" primary="true" start="233" end="233" startBytecode="13" endBytecode="13" sourcefile="CruiseControlMetricsUtils.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsUtils.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\CruiseControlMetricsUtils.java">
+      <Message>At CruiseControlMetricsUtils.java:[line 233]</Message>
+    </SourceLine>
+    <String value="java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="com/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsUtils.readConfig(Ljava/lang/String;)Lcom/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsReporterConfig; parameter 0" role="Unknown source">
+      <Message>Unknown source com/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsUtils.readConfig(Ljava/lang/String;)Lcom/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsReporterConfig; parameter 0</Message>
+    </String>
+    <String value="not detected" role="Method usage">
+      <Message>Method usage not detected</Message>
+    </String>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="94c302bc7da9988ccb61992b61ef80a8" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric at new com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric(RawMetricType, long, int, double) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric" start="17" end="73" sourcefile="BrokerMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/BrokerMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\BrokerMetric.java">
+        <Message>At BrokerMetric.java:[lines 17-73]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric</Message>
+    </Class>
+    <Method classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric" name="&lt;init&gt;" signature="(Lcom/linkedin/kafka/cruisecontrol/metricsreporter/metric/RawMetricType;JID)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric" start="17" end="22" startBytecode="0" endBytecode="174" sourcefile="BrokerMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/BrokerMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\BrokerMetric.java"/>
+      <Message>In method new com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric(RawMetricType, long, int, double)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric" primary="true" start="19" end="19" startBytecode="47" endBytecode="47" sourcefile="BrokerMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/BrokerMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\BrokerMetric.java">
+      <Message>At BrokerMetric.java:[line 19]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.BrokerMetric" start="19" end="19" startBytecode="47" endBytecode="47" sourcefile="BrokerMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/BrokerMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\BrokerMetric.java">
+      <Message>At BrokerMetric.java:[line 19]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="PATH_TRAVERSAL_IN" priority="2" rank="12" abbrev="SECPTI" category="SECURITY" instanceHash="2bcf951238ad16e2dbdf790e63eab796" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="22">
+    <ShortMessage>Potential Path Traversal (file read)</ShortMessage>
+    <LongMessage>This API (java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V) reads a file whose location might be specified by user input</LongMessage>
+    <Class classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils" start="23" end="107" sourcefile="ContainerMetricUtils.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/ContainerMetricUtils.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\ContainerMetricUtils.java">
+        <Message>At ContainerMetricUtils.java:[lines 23-107]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils</Message>
+    </Class>
+    <Method classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils" name="readFile" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="true" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils" start="62" end="62" startBytecode="0" endBytecode="53" sourcefile="ContainerMetricUtils.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/ContainerMetricUtils.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\ContainerMetricUtils.java"/>
+      <Message>In method com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils.readFile(String)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils" primary="true" start="62" end="62" startBytecode="5" endBytecode="5" sourcefile="ContainerMetricUtils.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/ContainerMetricUtils.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\ContainerMetricUtils.java">
+      <Message>At ContainerMetricUtils.java:[line 62]</Message>
+    </SourceLine>
+    <String value="java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V" role="Sink method">
+      <Message>Sink method java/io/FileInputStream.&lt;init&gt;(Ljava/lang/String;)V</Message>
+    </String>
+    <String value="0" role="Sink parameter">
+      <Message>Sink parameter 0</Message>
+    </String>
+    <String value="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/ContainerMetricUtils.readFile(Ljava/lang/String;)Ljava/lang/String; parameter 0" role="Unknown source">
+      <Message>Unknown source com/linkedin/kafka/cruisecontrol/metricsreporter/metric/ContainerMetricUtils.readFile(Ljava/lang/String;)Ljava/lang/String; parameter 0</Message>
+    </String>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils" start="32" end="32" startBytecode="6" endBytecode="6" sourcefile="ContainerMetricUtils.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/ContainerMetricUtils.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\ContainerMetricUtils.java">
+      <Message>At ContainerMetricUtils.java:[line 32]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils" start="42" end="42" startBytecode="6" endBytecode="6" sourcefile="ContainerMetricUtils.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/ContainerMetricUtils.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\ContainerMetricUtils.java">
+      <Message>At ContainerMetricUtils.java:[line 42]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.ContainerMetricUtils$CgroupFiles" start="121" end="121" startBytecode="1" endBytecode="1" sourcefile="ContainerMetricUtils.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/ContainerMetricUtils.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\ContainerMetricUtils.java">
+      <Message>At ContainerMetricUtils.java:[line 121]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="92bc04ad4ed33fcc13b61200204e95f" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric at new com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric(RawMetricType, long, int, String, int, double) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric" start="19" end="98" sourcefile="PartitionMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/PartitionMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\PartitionMetric.java">
+        <Message>At PartitionMetric.java:[lines 19-98]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric</Message>
+    </Class>
+    <Method classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric" name="&lt;init&gt;" signature="(Lcom/linkedin/kafka/cruisecontrol/metricsreporter/metric/RawMetricType;JILjava/lang/String;ID)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric" start="19" end="26" startBytecode="0" endBytecode="218" sourcefile="PartitionMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/PartitionMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\PartitionMetric.java"/>
+      <Message>In method new com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric(RawMetricType, long, int, String, int, double)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric" primary="true" start="21" end="21" startBytecode="47" endBytecode="47" sourcefile="PartitionMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/PartitionMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\PartitionMetric.java">
+      <Message>At PartitionMetric.java:[line 21]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.PartitionMetric" start="21" end="21" startBytecode="47" endBytecode="47" sourcefile="PartitionMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/PartitionMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\PartitionMetric.java">
+      <Message>At PartitionMetric.java:[line 21]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="CT_CONSTRUCTOR_THROW" priority="2" rank="16" abbrev="CT" category="BAD_PRACTICE" instanceHash="f7c976d4528f151afac4154c45eb0b3d" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
+    <ShortMessage>Be wary of letting constructors throw exceptions.</ShortMessage>
+    <LongMessage>Exception thrown in class com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric at new com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric(RawMetricType, long, int, String, double) will leave the constructor. The object under construction remains partially initialized and may be vulnerable to Finalizer attacks.</LongMessage>
+    <Class classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric" start="17" end="86" sourcefile="TopicMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/TopicMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\TopicMetric.java">
+        <Message>At TopicMetric.java:[lines 17-86]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric</Message>
+    </Class>
+    <Method classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric" name="&lt;init&gt;" signature="(Lcom/linkedin/kafka/cruisecontrol/metricsreporter/metric/RawMetricType;JILjava/lang/String;D)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric" start="17" end="23" startBytecode="0" endBytecode="197" sourcefile="TopicMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/TopicMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\TopicMetric.java"/>
+      <Message>In method new com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric(RawMetricType, long, int, String, double)</Message>
+    </Method>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric" primary="true" start="19" end="19" startBytecode="47" endBytecode="47" sourcefile="TopicMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/TopicMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\TopicMetric.java">
+      <Message>At TopicMetric.java:[line 19]</Message>
+    </SourceLine>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.TopicMetric" start="19" end="19" startBytecode="47" endBytecode="47" sourcefile="TopicMetric.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/TopicMetric.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\TopicMetric.java">
+      <Message>At TopicMetric.java:[line 19]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" rank="18" abbrev="EI2" category="MALICIOUS_CODE" instanceHash="39efd078862a23af8d050c006cf878b1" instanceOccurrenceNum="0" instanceOccurrenceMax="0" cweid="374">
+    <ShortMessage>May expose internal representation by incorporating reference to mutable object</ShortMessage>
+    <LongMessage>new com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context(CruiseControlMetricsReporter, long, int, long) may expose internal representation by storing an externally mutable object into YammerMetricProcessor$Context._reporter</LongMessage>
+    <Class classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context" start="161" end="181" sourcefile="YammerMetricProcessor.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/YammerMetricProcessor.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\YammerMetricProcessor.java">
+        <Message>At YammerMetricProcessor.java:[lines 161-181]</Message>
+      </SourceLine>
+      <Message>In class com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context</Message>
+    </Class>
+    <Method classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context" name="&lt;init&gt;" signature="(Lcom/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsReporter;JIJ)V" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context" start="161" end="166" startBytecode="0" endBytecode="131" sourcefile="YammerMetricProcessor.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/YammerMetricProcessor.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\YammerMetricProcessor.java"/>
+      <Message>In method new com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context(CruiseControlMetricsReporter, long, int, long)</Message>
+    </Method>
+    <Field classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context" name="_reporter" signature="Lcom/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsReporter;" isStatic="false" primary="true">
+      <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context" sourcefile="YammerMetricProcessor.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/YammerMetricProcessor.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\YammerMetricProcessor.java">
+        <Message>In YammerMetricProcessor.java</Message>
+      </SourceLine>
+      <Message>Field com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context._reporter</Message>
+    </Field>
+    <LocalVariable name="reporter" register="1" pc="6" role="LOCAL_VARIABLE_NAMED">
+      <Message>Local variable named reporter</Message>
+    </LocalVariable>
+    <SourceLine classname="com.linkedin.kafka.cruisecontrol.metricsreporter.metric.YammerMetricProcessor$Context" primary="true" start="162" end="162" startBytecode="6" endBytecode="6" sourcefile="YammerMetricProcessor.java" sourcepath="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/YammerMetricProcessor.java" relSourcepath="java\com\linkedin\kafka\cruisecontrol\metricsreporter\metric\YammerMetricProcessor.java">
+      <Message>At YammerMetricProcessor.java:[line 162]</Message>
+    </SourceLine>
+  </BugInstance>
+  <BugCategory category="BAD_PRACTICE">
+    <Description>Bad practice</Description>
+  </BugCategory>
+  <BugCategory category="MALICIOUS_CODE">
+    <Description>Malicious code vulnerability</Description>
+  </BugCategory>
+  <BugCategory category="SECURITY">
+    <Description>Security</Description>
+  </BugCategory>
+  <BugPattern type="EI_EXPOSE_REP2" abbrev="EI2" category="MALICIOUS_CODE" cweid="374">
+    <ShortDescription>May expose internal representation by incorporating reference to mutable object</ShortDescription>
+    <Details><![CDATA[
+
+  <p> This code stores a reference to an externally mutable object into the
+  internal representation of the object.&nbsp;
+   If instances
+   are accessed by untrusted code, and unchecked changes to
+   the mutable object would compromise security or other
+   important properties, you will need to do something different.
+  Storing a copy of the object is better approach in many situations.</p>
+
+    ]]></Details>
+  </BugPattern>
+  <BugPattern type="PATH_TRAVERSAL_IN" abbrev="SECPTI" category="SECURITY" cweid="22">
+    <ShortDescription>Potential Path Traversal (file read)</ShortDescription>
+    <Details><![CDATA[
+            
+<p>A file is opened to read its content. The filename comes from an <b>input</b> parameter.
+If an unfiltered parameter is passed to this file API, files from an arbitrary filesystem location could be read.</p>
+<p>This rule identifies <b>potential</b> path traversal vulnerabilities. In many cases, the constructed file path cannot be controlled
+by the user. If that is the case, the reported instance is a false positive.</p>
+<br/>
+
+<p>
+    <b>Vulnerable Code:</b><br/>
+<pre>@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", image); //Weak point
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+
+<p>
+    <b>Solution:</b><br/>
+<pre>import org.apache.commons.io.FilenameUtils;
+
+@GET
+@Path("/images/{image}")
+@Produces("images/*")
+public Response getImage(@javax.ws.rs.PathParam("image") String image) {
+    File file = new File("resources/images/", FilenameUtils.getName(image)); //Fix
+
+    if (!file.exists()) {
+        return Response.status(Status.NOT_FOUND).build();
+    }
+
+    return Response.ok().entity(new FileInputStream(file)).build();
+}</pre>
+</p>
+<br/>
+<p>
+<b>References</b><br/>
+<a href="http://projects.webappsec.org/w/page/13246952/Path%20Traversal">WASC: Path Traversal</a><br/>
+<a href="https://www.owasp.org/index.php/Path_Traversal">OWASP: Path Traversal</a><br/>
+<a href="https://capec.mitre.org/data/definitions/126.html">CAPEC-126: Path Traversal</a><br/>
+<a href="https://cwe.mitre.org/data/definitions/22.html">CWE-22: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')</a>
+</p>
+
+        ]]></Details>
+  </BugPattern>
+  <BugPattern type="CT_CONSTRUCTOR_THROW" abbrev="CT" category="BAD_PRACTICE">
+    <ShortDescription>Be wary of letting constructors throw exceptions.</ShortDescription>
+    <Details><![CDATA[
+      
+            <p>Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks</p>
+
+            <p>A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared as final, or by a clever use of a private constructor.</p>
+
+            <p>See <a href="https://wiki.sei.cmu.edu/confluence/display/java/OBJ11-J.+Be+wary+of+letting+constructors+throw+exceptions"><code>SEI CERT Rule OBJ-11</code></a>
+            for more information.
+            </p>
+            
+    ]]></Details>
+  </BugPattern>
+  <BugCode abbrev="CT">
+    <Description>Constructor throws</Description>
+  </BugCode>
+  <BugCode abbrev="SECPTI">
+    <Description>Potential Path Traversal (file read)</Description>
+  </BugCode>
+  <BugCode abbrev="EI2">
+    <Description>Storing reference to mutable object</Description>
+  </BugCode>
+  <Errors errors="0" missingClasses="5">
+    <MissingClass>accept</MissingClass>
+    <MissingClass>apply</MissingClass>
+    <MissingClass>get</MissingClass>
+    <MissingClass>makeConcatWithConstants</MissingClass>
+    <MissingClass>run</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sat, 27 Dec 2025 12:50:36 +0100" total_classes="0" referenced_classes="0" total_bugs="6" total_size="0" num_packages="2" java_version="17.0.12" vm_version="17.0.12+8-LTS-286" cpu_seconds="54.47" clock_seconds="14.19" peak_mbytes="274.28" alloc_mbytes="4004.00" gc_seconds="0.08" priority_2="6">
+    <FileStats path="com/linkedin/kafka/cruisecontrol/metricsreporter/CruiseControlMetricsUtils.java" bugCount="1" size="0" bugHash="1da57daa1fb395f5eb5733cfb759d8cc"/>
+    <FileStats path="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/BrokerMetric.java" bugCount="1" size="0" bugHash="3d784d730ffcd1a4acba732056bbbdf7"/>
+    <FileStats path="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/ContainerMetricUtils.java" bugCount="1" size="0" bugHash="4cd6b2caf70c811d07cd548bd5169212"/>
+    <FileStats path="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/PartitionMetric.java" bugCount="1" size="0" bugHash="2d710af2acff1544830e93323ddf5b5c"/>
+    <FileStats path="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/TopicMetric.java" bugCount="1" size="0" bugHash="75b11d3f3756c6d27e7acabbf1195512"/>
+    <FileStats path="com/linkedin/kafka/cruisecontrol/metricsreporter/metric/YammerMetricProcessor.java" bugCount="1" size="0" bugHash="dfaf0fc8790693d5537dda2825f8be6f"/>
+    <FindBugsProfile></FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

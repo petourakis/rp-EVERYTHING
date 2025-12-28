@@ -132,6 +132,9 @@ echo Run,Config,Project,BuildTool,BugCount,Status > "%OUTPUT_DIR%\vulnerability_
 :LOOP
 if %OverallRun% GTR %TOTAL_RUNS% goto END
 
+:: Re-establish BASE_DIR to prevent loss between iterations
+set "BASE_DIR=%PROJECTS_DIR%\%PROJECT%"
+
 :: Choose random config
 set /A pick=(%RANDOM% %% 3) + 1
 if %pick%==1 set CurrentConfig=A
@@ -162,10 +165,10 @@ pushd "%BASE_DIR%"
 :: -------------------------------------------------
 if "%BUILD_TOOL%"=="maven" (
 
-    echo [MAVEN] Running: compile spotbugs:spotbugs %CURRENT_ARGS%
+    echo [MAVEN] Running: spotbugs:spotbugs %CURRENT_ARGS%
     
     "%ENERGIBRIDGE_EXE%" -i 200 -o "%CSV_OUT%" --summary "%MAVEN_CMD%" ^
-        clean compile spotbugs:spotbugs ^
+        spotbugs:spotbugs ^
         %CURRENT_ARGS%
 
     set ERR=!ERRORLEVEL!
@@ -221,131 +224,30 @@ if "%BUILD_TOOL%"=="maven" (
 )
 
 :: -------------------------------------------------
-:: BACKUP SPOTBUGS REPORTS (XML and HTML)
+:: BACKUP SPOTBUGS REPORTS USING ROBOCOPY
 :: -------------------------------------------------
-REM Get current timestamp for this specific run
-for /f "tokens=2 delims==" %%I in ('WMIC OS GET LocalDateTime /VALUE') do set run_dt=%%I
-set RUN_TIMESTAMP=%run_dt:~0,4%%run_dt:~4,2%%run_dt:~6,2%_%run_dt:~8,2%%run_dt:~10,2%%run_dt:~12,2%
+echo [INFO] Backing up SpotBugs reports...
+
+REM Create run-specific subfolder
+set "RUN_BACKUP_DIR=%PROBLEMS_BACKUP_DIR%\run%OverallRun%_config%CurrentConfig%"
+mkdir "%RUN_BACKUP_DIR%" >nul 2>&1
 
 if "%BUILD_TOOL%"=="maven" (
-    REM Backup Maven SpotBugs XML reports from all modules
-    echo [INFO] Searching for SpotBugs XML reports in all modules...
+    REM Copy all Maven XML files preserving directory structure
+    robocopy "%BASE_DIR%" "%RUN_BACKUP_DIR%" spotbugsXml.xml /S /NFL /NDL /NJH /NJS /NC /NS /NP
     
-    REM Create temp file with list of all XML files
-    set "TEMP_XML_LIST=%TEMP%\sb_xml_%RANDOM%.txt"
-    dir /s /b "%BASE_DIR%\*spotbugsXml.xml" > "%TEMP_XML_LIST%" 2>nul
+    REM Copy all Maven HTML files preserving directory structure  
+    robocopy "%BASE_DIR%" "%RUN_BACKUP_DIR%" spotbugs.html /S /NFL /NDL /NJH /NJS /NC /NS /NP
     
-    set TOTAL_XML_SAVED=0
-    for /f "usebackq delims=" %%F in ("%TEMP_XML_LIST%") do (
-        if exist "%%F" (
-            REM Extract module name from path
-            set "MODULE_PATH=%%~dpF"
-            set "MODULE_PATH=!MODULE_PATH:%BASE_DIR%\=!"
-            set "MODULE_PATH=!MODULE_PATH:\target\=!"
-            set "MODULE_NAME=!MODULE_PATH:\=_!"
-            
-            set "XML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs_!MODULE_NAME!_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml"
-            copy "%%F" "!XML_BACKUP!" >nul 2>&1
-            if !ERRORLEVEL! EQU 0 (
-                set /A TOTAL_XML_SAVED+=1
-            )
-        )
-    )
-    del "%TEMP_XML_LIST%" 2>nul
-    echo [INFO] Backed up !TOTAL_XML_SAVED! SpotBugs XML reports
-    
-    REM Backup Maven SpotBugs HTML reports from all modules
-    set "TEMP_HTML_LIST=%TEMP%\sb_html_%RANDOM%.txt"
-    dir /s /b "%BASE_DIR%\*spotbugs.html" > "%TEMP_HTML_LIST%" 2>nul
-    
-    set TOTAL_HTML_SAVED=0
-    for /f "usebackq delims=" %%F in ("%TEMP_HTML_LIST%") do (
-        if exist "%%F" (
-            REM Extract module name from path
-            set "MODULE_PATH=%%~dpF"
-            set "MODULE_PATH=!MODULE_PATH:%BASE_DIR%\=!"
-            set "MODULE_PATH=!MODULE_PATH:\target\=!"
-            set "MODULE_NAME=!MODULE_PATH:\=_!"
-            
-            set "HTML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs_!MODULE_NAME!_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html"
-            copy "%%F" "!HTML_BACKUP!" >nul 2>&1
-            if !ERRORLEVEL! EQU 0 (
-                set /A TOTAL_HTML_SAVED+=1
-            )
-        )
-    )
-    del "%TEMP_HTML_LIST%" 2>nul
-    echo [INFO] Backed up !TOTAL_HTML_SAVED! SpotBugs HTML reports
+    echo [INFO] Maven reports backed up to run%OverallRun%_config%CurrentConfig%
 ) else (
-    REM Backup Gradle SpotBugs XML reports from all modules (multi-module support)
-    echo [INFO] Searching for SpotBugs XML reports in all Gradle modules...
+    REM Copy all Gradle XML files preserving directory structure
+    robocopy "%BASE_DIR%" "%RUN_BACKUP_DIR%" *.xml /S /NFL /NDL /NJH /NJS /NC /NS /NP
     
-    REM Create temp file with list of all XML files
-    set "TEMP_GRADLE_XML=%TEMP%\gradle_xml_%RANDOM%.txt"
-    dir /s /b "%BASE_DIR%\build\reports\spotbugs\*.xml" > "%TEMP_GRADLE_XML%" 2>nul
+    REM Copy all Gradle HTML files preserving directory structure
+    robocopy "%BASE_DIR%" "%RUN_BACKUP_DIR%" *.html /S /NFL /NDL /NJH /NJS /NC /NS /NP
     
-    set TOTAL_XML_SAVED=0
-    for /f "usebackq delims=" %%F in ("%TEMP_GRADLE_XML%") do (
-        if exist "%%F" (
-            REM Extract module name and report type from path
-            set "FILE_PATH=%%~dpF"
-            set "FILE_NAME=%%~nF"
-            set "MODULE_PATH=!FILE_PATH:%BASE_DIR%\=!"
-            set "MODULE_PATH=!MODULE_PATH:\build\reports\spotbugs\=!"
-            set "MODULE_NAME=!MODULE_PATH:\=_!"
-            
-            REM If root module, use project name
-            if "!MODULE_NAME!"=="" (
-                set "MODULE_NAME=%PROJECT%"
-            )
-            
-            set "XML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs-!MODULE_NAME!-!FILE_NAME!_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.xml"
-            copy "%%F" "!XML_BACKUP!" >nul 2>&1
-            if !ERRORLEVEL! EQU 0 (
-                set /A TOTAL_XML_SAVED+=1
-            )
-        )
-    )
-    del "%TEMP_GRADLE_XML%" 2>nul
-    echo [INFO] Backed up !TOTAL_XML_SAVED! SpotBugs XML reports
-    
-    REM Backup Gradle SpotBugs HTML reports from all modules
-    set "TEMP_GRADLE_HTML=%TEMP%\gradle_html_%RANDOM%.txt"
-    dir /s /b "%BASE_DIR%\build\reports\spotbugs\*.html" > "%TEMP_GRADLE_HTML%" 2>nul
-    
-    set TOTAL_HTML_SAVED=0
-    for /f "usebackq delims=" %%F in ("%TEMP_GRADLE_HTML%") do (
-        if exist "%%F" (
-            REM Extract module name and report type from path
-            set "FILE_PATH=%%~dpF"
-            set "FILE_NAME=%%~nF"
-            set "MODULE_PATH=!FILE_PATH:%BASE_DIR%\=!"
-            set "MODULE_PATH=!MODULE_PATH:\build\reports\spotbugs\=!"
-            set "MODULE_NAME=!MODULE_PATH:\=_!"
-            
-            REM If root module, use project name
-            if "!MODULE_NAME!"=="" (
-                set "MODULE_NAME=%PROJECT%"
-            )
-            
-            set "HTML_BACKUP=%PROBLEMS_BACKUP_DIR%\spotbugs-!MODULE_NAME!-!FILE_NAME!_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html"
-            copy "%%F" "!HTML_BACKUP!" >nul 2>&1
-            if !ERRORLEVEL! EQU 0 (
-                set /A TOTAL_HTML_SAVED+=1
-            )
-        )
-    )
-    del "%TEMP_GRADLE_HTML%" 2>nul
-    echo [INFO] Backed up !TOTAL_HTML_SAVED! SpotBugs HTML reports
-    
-    REM Backup Gradle problems-report.html (if exists)
-    if exist "build\reports\problems\problems-report.html" (
-        set "PROBLEMS_HTML_BACKUP=%PROBLEMS_BACKUP_DIR%\problems-report_run%OverallRun%_config%CurrentConfig%_%RUN_TIMESTAMP%.html"
-        copy "build\reports\problems\problems-report.html" "!PROBLEMS_HTML_BACKUP!" >nul 2>&1
-        if !ERRORLEVEL! EQU 0 (
-            echo [INFO] Problems report HTML backed up
-        )
-    )
+    echo [INFO] Gradle reports backed up to run%OverallRun%_config%CurrentConfig%
 )
 
 popd
@@ -390,7 +292,7 @@ if exist "%OUTPUT_DIR%\failed_runs.log" (
 )
 echo.
 echo Vulnerability data saved to: vulnerability_summary.csv
-echo SpotBugs XML and HTML reports backed up to: %PROBLEMS_BACKUP_DIR%
+echo SpotBugs reports backed up to: %PROBLEMS_BACKUP_DIR%
 echo ==========================================
 pause
 ENDLOCAL
